@@ -4010,4 +4010,10 @@
   <data name="NewMixText" xml:space="preserve">
     <value>   New mix</value>
   </data>
+  <data name="CantLoadImageMessage" xml:space="preserve">
+    <value>Oops! We couldn't load that image. Please make sure it's a valid photo file (JPG, PNG, BMP).</value>
+  </data>
+  <data name="CantLoadImageMessageTitle" xml:space="preserve">
+    <value>Error Loading Image</value>
+  </data>
 </root>

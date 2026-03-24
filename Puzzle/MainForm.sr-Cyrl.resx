@@ -3171,12 +3171,6 @@
   <data name="$this.Text" xml:space="preserve">
     <value>   Слагалица - Клизаљка</value>
   </data>
-  <data name="serbianCirylToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>184, 22</value>
-  </data>
-  <data name="serbianCirylToolStripMenuItem.Text" xml:space="preserve">
-    <value>   Serbian Ciryl</value>
-  </data>
   <data name="PuzzleIsSolved" xml:space="preserve">
     <value>   Слагалица је решена.       </value>
   </data>
@@ -3191,5 +3185,17 @@
   </data>
   <data name="NewMixText" xml:space="preserve">
     <value>   Поново промешај плочице</value>
+  </data>
+  <data name="serbianCirylToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 22</value>
+  </data>
+  <data name="serbianCirylToolStripMenuItem.Text" xml:space="preserve">
+    <value>   Serbian Ciryl</value>
+  </data>
+  <data name="CantLoadImageMessage" xml:space="preserve">
+    <value>Упс! Не можемо да учитамо ту слику. Проверите да ли је фајл исправан формат слике (JPG, PNG, BMP).</value>
+  </data>
+  <data name="CantLoadImageMessageTitle" xml:space="preserve">
+    <value>Грешка при учитавању слике</value>
   </data>
 </root>

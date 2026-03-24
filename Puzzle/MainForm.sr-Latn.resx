@@ -3123,4 +3123,10 @@
   <data name="NewMixText" xml:space="preserve">
     <value>   Ponovo promešaj pločice</value>
   </data>
+  <data name="CantLoadImageMessage" xml:space="preserve">
+    <value>Ups! Ne možemo da učitamo tu sliku. Proverite da li je fajl ispravan format slike (JPG, PNG, BMP).</value>
+  </data>
+  <data name="CantLoadImageMessageTitle" xml:space="preserve">
+    <value>Greška pri učitavanju slike</value>
+  </data>
 </root>

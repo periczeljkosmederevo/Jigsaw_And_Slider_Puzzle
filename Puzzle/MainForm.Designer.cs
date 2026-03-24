@@ -258,19 +258,19 @@ namespace Puzzle
             this.EnglishLanguage.CheckOnClick = true;
             this.EnglishLanguage.Name = "EnglishLanguage";
             resources.ApplyResources(this.EnglishLanguage, "EnglishLanguage");
-            this.EnglishLanguage.Click += new System.EventHandler(this.EnglishLanguageClick);
+            this.EnglishLanguage.Click += new System.EventHandler(this.LanguageSelection_Click);
             // 
             // SerbianLatinLanguage
             // 
             this.SerbianLatinLanguage.Name = "SerbianLatinLanguage";
             resources.ApplyResources(this.SerbianLatinLanguage, "SerbianLatinLanguage");
-            this.SerbianLatinLanguage.Click += new System.EventHandler(this.SerbianLatinLanguageClick);
+            this.SerbianLatinLanguage.Click += new System.EventHandler(this.LanguageSelection_Click);
             // 
             // SerbianCyrlLanguage
             // 
             this.SerbianCyrlLanguage.Name = "SerbianCyrlLanguage";
             resources.ApplyResources(this.SerbianCyrlLanguage, "SerbianCyrlLanguage");
-            this.SerbianCyrlLanguage.Click += new System.EventHandler(this.SerbianCyrlLanguageClick);
+            this.SerbianCyrlLanguage.Click += new System.EventHandler(this.LanguageSelection_Click);
             // 
             // Separator1
             // 

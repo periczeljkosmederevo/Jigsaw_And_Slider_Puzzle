@@ -111,11 +111,15 @@ namespace Puzzle
         bool Swap = false;
 
         bool Game_Is_Running = false;
+
+        string Last_External_Path = null;
         #endregion
 
         public MainForm()
         {
             InitializeComponent();
+
+            ApplyDefaultLanguage();
 
             Initialize_Tables();
 
@@ -127,6 +131,32 @@ namespace Puzzle
         }
 
         #region-   Initialization   -
+        /// <summary>
+        /// Detects system language and updates the menu checkmarks accordingly.
+        /// </summary>
+        private void ApplyDefaultLanguage()
+        {
+            // Get the current system UI culture name (e.g., "en-US", "sr-Latn-RS", "sr-Cyrl-RS")
+            string sysLang = CultureInfo.CurrentUICulture.Name;
+
+            if (sysLang.StartsWith("sr-Cyrl", StringComparison.OrdinalIgnoreCase))
+            {
+                SerbianCyrlLanguage.Checked = true;
+                ChangeLanguage("sr-Cyrl");
+            }
+            else if (sysLang.StartsWith("sr-Latn", StringComparison.OrdinalIgnoreCase)
+                        || sysLang.StartsWith("sr-SP", StringComparison.OrdinalIgnoreCase))
+            {
+                SerbianLatinLanguage.Checked = true;
+                ChangeLanguage("sr-Latn");
+            }
+            else
+            {
+                EnglishLanguage.Checked = true;
+                ChangeLanguage("");
+            }
+        }
+
         void Set_Table_Squares_Visibility(bool Visible, int Milliseconds)
         {
             Square1.Visible = Visible;
@@ -347,8 +377,8 @@ namespace Puzzle
         {
             Puzzle_Options.AutoClose = IsGameRunning;
 
-            NewPuzzle.Text = IsGameRunning 
-                ? Translations.GetString("NewMixText") 
+            NewPuzzle.Text = IsGameRunning
+                ? Translations.GetString("NewMixText")
                 : Translations.GetString("NewPuzzle.Text");
 
             Separator1.Visible = !IsGameRunning;
@@ -383,7 +413,7 @@ namespace Puzzle
             }
 
             Puzzle_Options.Refresh();
-        }        
+        }
         #endregion
 
         #region-   Find all possible permutations of indexes of tiles   -
@@ -614,7 +644,7 @@ namespace Puzzle
         }
         #endregion
 
-        #region- Main Methods   -
+        #region-   Main Methods   -
         void Mix_Tiles()
         {
             //
@@ -1060,8 +1090,8 @@ namespace Puzzle
 
             Mix_Tiles();
 
-            Blank_Tile_Index = (RandomBlankTileIndex.Checked && SliderPuzzle.Checked) 
-                ? Select_Blank_Tile_Index() 
+            Blank_Tile_Index = (RandomBlankTileIndex.Checked && SliderPuzzle.Checked)
+                ? Select_Blank_Tile_Index()
                 : 9;
 
             if (SliderPuzzle.Checked)
@@ -1085,15 +1115,23 @@ namespace Puzzle
 
         void Load_Image(object sender, EventArgs e)
         {
-            DialogResult Choice;
-
-            Choice = Dialog_Load_Image.ShowDialog();
-
-            if (Choice == DialogResult.OK)
+            if (Dialog_Load_Image.ShowDialog() == DialogResult.OK)
             {
-                BackgroundImage = new Bitmap(Dialog_Load_Image.FileName);
+                try
+                {
+                    Last_External_Path = Dialog_Load_Image.FileName;
 
-                Initialize_Tiles();
+                    BackgroundImage = new Bitmap(Last_External_Path);
+
+                    Initialize_Tiles();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(Translations.GetString("CantLoadImageMessage"),
+                                    Translations.GetString("CantLoadImageMessageTitle"),
+                                    MessageBoxButtons.OK,
+                                    MessageBoxIcon.Error);
+                }
             }
 
             Cursor = Cursors.Hand;
@@ -1132,6 +1170,8 @@ namespace Puzzle
 
         void Previous_Image(object sender, EventArgs e)
         {
+            Last_External_Path = null;
+
             Cursor = Cursors.Hand;
             Refresh();
 
@@ -1150,6 +1190,8 @@ namespace Puzzle
 
         void Next_Image(object sender, EventArgs e)
         {
+            Last_External_Path = null;
+
             Cursor = Cursors.Hand;
             Refresh();
 
@@ -1305,76 +1347,83 @@ namespace Puzzle
         }
         #endregion
 
-        #region -   Language Selection   -
+        #region -   Language Selection    -
 
-        void ChangeLanguage(string cultureCode)
+        /// <summary>
+        /// Main handler for language selection clicks.
+        /// </summary>
+        private void LanguageSelection_Click(object sender, EventArgs e)
         {
-            // Set the new culture for the current thread
-            Thread.CurrentThread.CurrentUICulture = new CultureInfo(cultureCode);
-            Thread.CurrentThread.CurrentCulture = new CultureInfo(cultureCode);
-
-            ComponentResourceManager res = new ComponentResourceManager(typeof(MainForm));
-
-            // Update main menu items and their sub-items
-            foreach (ToolStripItem mainItem in Puzzle_Options.Items)
+            if (sender is ToolStripMenuItem clickedItem)
             {
-                res.ApplyResources(mainItem, mainItem.Name);
+                Cursor = Cursors.WaitCursor;
 
-                // Check if this item has a sub-menu (like your "Menu options")
-                if (mainItem is ToolStripMenuItem menuItem && menuItem.HasDropDownItems)
+                // Update checkmarks: Uncheck all, then check the clicked one
+                EnglishLanguage.Checked = (clickedItem == EnglishLanguage);
+                SerbianLatinLanguage.Checked = (clickedItem == SerbianLatinLanguage);
+                SerbianCyrlLanguage.Checked = (clickedItem == SerbianCyrlLanguage);
+
+                // Determine culture code based on the clicked item
+                string cultureCode = "";
+                if (clickedItem == SerbianLatinLanguage)
+                    cultureCode = "sr-Latn";
+                else if (clickedItem == SerbianCyrlLanguage)
+                    cultureCode = "sr-Cyrl";
+
+                // Execute the heavy lifting
+                ChangeLanguage(cultureCode);
+
+                // Refresh preaviously loaded image
+                if (!string.IsNullOrEmpty(Last_External_Path))
                 {
-                    foreach (ToolStripItem subItem in menuItem.DropDownItems)
-                    {
-                        res.ApplyResources(subItem, subItem.Name);
-                    }
+                    BackgroundImage = new Bitmap(Last_External_Path);
                 }
+                else
+                {
+                    BackgroundImage = (System.Drawing.Image)
+                        (Images.GetObject(Next_Image_Counter.ToString()));
+                }
+
+                Cursor = Cursors.Default;
+                Refresh();
             }
+        }
 
-            // Update form title and other specific UI elements
-            res.ApplyResources(this, "$this");
+        /// <summary>
+        /// Applies the selected culture resources to the UI components.
+        /// </summary>
+        private void ChangeLanguage(string cultureCode)
+        {
+            var culture = new CultureInfo(cultureCode);
+            Thread.CurrentThread.CurrentUICulture = culture;
+            Thread.CurrentThread.CurrentCulture = culture;
 
-            // Refresh static strings in code
+            // Update menu items and their children recursively
+            UpdateMenuItems(Puzzle_Options.Items, Translations);
+
+            // Update form-level properties ($this)
+            Translations.ApplyResources(this, "$this");
+
+            // Refresh dynamic UI elements
             Initialize_Menu(IsGameRunning: Game_Is_Running);
         }
 
-        //
-        // Change language to English
-        //
-        void EnglishLanguageClick(object sender, EventArgs e)
+        /// <summary>
+        /// Recursive helper to update ToolStrip items.
+        /// </summary>
+        private void UpdateMenuItems(ToolStripItemCollection items, ComponentResourceManager res)
         {
-            Cursor = Cursors.Hand;
-            EnglishLanguage.Checked = true;
-            SerbianLatinLanguage.Checked = false;
-            ChangeLanguage(""); // Default/Neutral is English
-            Refresh();
+            foreach (ToolStripItem item in items)
+            {
+                res.ApplyResources(item, item.Name);
+                if (item is ToolStripMenuItem menuItem && menuItem.HasDropDownItems)
+                {
+                    UpdateMenuItems(menuItem.DropDownItems, res);
+                }
+            }
         }
 
-        //
-        // Change language to Serbian (Latin)
-        //
-        void SerbianLatinLanguageClick(object sender, EventArgs e)
-        {
-            Cursor = Cursors.Hand;
-            Refresh();
-            SerbianLatinLanguage.Checked = true;
-            EnglishLanguage.Checked = false;
-            ChangeLanguage("sr-Latn");
-            Refresh();
-        }
-
-        //
-        // Change language to Serbian (Cyril)
-        //
-        void SerbianCyrlLanguageClick(object sender, EventArgs e)
-        {
-            Cursor = Cursors.Hand;
-            Refresh();
-            SerbianLatinLanguage.Checked = true;
-            EnglishLanguage.Checked = false;
-            ChangeLanguage("sr-Cyrl");
-            Refresh();
-        }
-        #endregion
+        #endregion    
     }
 }
 /************************************************************************
