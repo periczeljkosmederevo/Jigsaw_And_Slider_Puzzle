@@ -123,6 +123,9 @@
   <data name="SerbianLatinLanguage.Text" xml:space="preserve">
     <value>   Srpski Latinica</value>
   </data>
+  <data name="SerbianCyrlLanguage.Text" xml:space="preserve">
+    <value>   Srpski Ćirilica</value>
+  </data>
   <data name="MenuTitle.Text" xml:space="preserve">
     <value>   Opcije - Jezici</value>
   </data>

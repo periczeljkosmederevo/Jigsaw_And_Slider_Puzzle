@@ -432,10 +432,10 @@
   <data name="SerbianLatinLanguage.Text" xml:space="preserve">
     <value>   Serbian Latin</value>
   </data>
-  <data name="serbianCirylToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="SerbianCyrlLanguage.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  <data name="serbianCirylToolStripMenuItem.Text" xml:space="preserve">
+  <data name="SerbianCyrlLanguage.Text" xml:space="preserve">
     <value>   Serbian Cyrl</value>
   </data>
   <data name="MenuTitle.Size" type="System.Drawing.Size, System.Drawing">
@@ -3875,10 +3875,10 @@
   <data name="&gt;&gt;SerbianLatinLanguage.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;serbianCirylToolStripMenuItem.Name" xml:space="preserve">
-    <value>serbianCirylToolStripMenuItem</value>
+  <data name="&gt;&gt;SerbianCyrlLanguage.Name" xml:space="preserve">
+    <value>SerbianCyrlLanguage</value>
   </data>
-  <data name="&gt;&gt;serbianCirylToolStripMenuItem.Type" xml:space="preserve">
+  <data name="&gt;&gt;SerbianCyrlLanguage.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;Separator1.Name" xml:space="preserve">
