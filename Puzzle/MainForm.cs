@@ -345,6 +345,8 @@ namespace Puzzle
 
         void Initialize_Menu(bool IsGameRunning = false)
         {
+            Puzzle_Options.AutoClose = IsGameRunning;
+
             NewPuzzle.Text = IsGameRunning 
                 ? Translations.GetString("NewMixText") 
                 : Translations.GetString("NewPuzzle.Text");
@@ -1032,6 +1034,8 @@ namespace Puzzle
         #region-   Menu options   -
         void New_Puzzle(object sender, EventArgs e)
         {
+            Puzzle_Options.Close();
+
             int Milliseconds = 0;
             int Initial_Tile_Order_Index = 0;
             string Selected_Tile_Order = string.Empty;
@@ -1352,6 +1356,12 @@ namespace Puzzle
             Refresh();
         }
         #endregion
+
+        private void Close_Menu(object sender, EventArgs e)
+        {
+            Puzzle_Options.Close();
+            Refresh();
+        }
     }
 }
 /************************************************************************

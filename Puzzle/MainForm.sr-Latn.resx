@@ -153,6 +153,9 @@
   <data name="RandomBlankTileIndex.Text" xml:space="preserve">
     <value>   Slučajna pozicija praznog polja</value>
   </data>
+  <data name="CloseMenu.Text" xml:space="preserve">
+    <value>   Zatvori opcije</value>
+  </data>
   <data name="Dialog_Load_Image.Title" xml:space="preserve">
     <value>   Izaberite sliku za slagalicu</value>
   </data>

@@ -421,13 +421,13 @@
     <value>335, 20</value>
   </data>
   <data name="EnglishLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>151, 22</value>
   </data>
   <data name="EnglishLanguage.Text" xml:space="preserve">
     <value>   English</value>
   </data>
   <data name="SerbianLatinLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>151, 22</value>
   </data>
   <data name="SerbianLatinLanguage.Text" xml:space="preserve">
     <value>   Serbian Latin</value>
@@ -513,8 +513,17 @@
   <data name="RandomBlankTileIndex.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
   </data>
+  <data name="Separator7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 6</value>
+  </data>
+  <data name="CloseMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>251, 22</value>
+  </data>
+  <data name="CloseMenu.Text" xml:space="preserve">
+    <value>   Close Menu</value>
+  </data>
   <data name="Puzzle_Options.Size" type="System.Drawing.Size, System.Drawing">
-    <value>252, 282</value>
+    <value>252, 310</value>
   </data>
   <data name="&gt;&gt;Puzzle_Options.Name" xml:space="preserve">
     <value>Puzzle_Options</value>
@@ -3848,6 +3857,18 @@
   <data name="&gt;&gt;MenuTitle.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;EnglishLanguage.Name" xml:space="preserve">
+    <value>EnglishLanguage</value>
+  </data>
+  <data name="&gt;&gt;EnglishLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SerbianLatinLanguage.Name" xml:space="preserve">
+    <value>SerbianLatinLanguage</value>
+  </data>
+  <data name="&gt;&gt;SerbianLatinLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;Separator1.Name" xml:space="preserve">
     <value>Separator1</value>
   </data>
@@ -3938,23 +3959,23 @@
   <data name="&gt;&gt;RandomBlankTileIndex.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;Separator7.Name" xml:space="preserve">
+    <value>Separator7</value>
+  </data>
+  <data name="&gt;&gt;Separator7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CloseMenu.Name" xml:space="preserve">
+    <value>CloseMenu</value>
+  </data>
+  <data name="&gt;&gt;CloseMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;Dialog_Load_Image.Name" xml:space="preserve">
     <value>Dialog_Load_Image</value>
   </data>
   <data name="&gt;&gt;Dialog_Load_Image.Type" xml:space="preserve">
     <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;EnglishLanguage.Name" xml:space="preserve">
-    <value>EnglishLanguage</value>
-  </data>
-  <data name="&gt;&gt;EnglishLanguage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SerbianLatinLanguage.Name" xml:space="preserve">
-    <value>SerbianLatinLanguage</value>
-  </data>
-  <data name="&gt;&gt;SerbianLatinLanguage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>MainForm</value>
@@ -3963,7 +3984,7 @@
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="PuzzleIsSolved" xml:space="preserve">
-    <value>   Puzzle is solved.      </value>
+    <value>   Puzzle is solved.       </value>
   </data>
   <data name="MainWindowTitleSlider" xml:space="preserve">
     <value>   Slider Puzzle</value>
@@ -3972,7 +3993,7 @@
     <value>   Excellent !!!</value>
   </data>
   <data name="MainWindowTitleJigsaw" xml:space="preserve">
-    <value>   Jigsaw Puzzle</value>
+    <value>   Jigsaw puzzle</value>
   </data>
   <data name="NewMixText" xml:space="preserve">
     <value>   New mix</value>

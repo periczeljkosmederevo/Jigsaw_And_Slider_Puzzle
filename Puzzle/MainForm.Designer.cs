@@ -73,6 +73,8 @@ namespace Puzzle
             this.Square9 = new System.Windows.Forms.PictureBox();
             this.Puzzle_Options = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.MenuTitle = new System.Windows.Forms.ToolStripMenuItem();
+            this.EnglishLanguage = new System.Windows.Forms.ToolStripMenuItem();
+            this.SerbianLatinLanguage = new System.Windows.Forms.ToolStripMenuItem();
             this.Separator1 = new System.Windows.Forms.ToolStripSeparator();
             this.SliderPuzzle = new System.Windows.Forms.ToolStripMenuItem();
             this.JigsawPuzzle = new System.Windows.Forms.ToolStripMenuItem();
@@ -88,6 +90,8 @@ namespace Puzzle
             this.PuzzleSolution = new System.Windows.Forms.ToolStripMenuItem();
             this.Separator6 = new System.Windows.Forms.ToolStripSeparator();
             this.RandomBlankTileIndex = new System.Windows.Forms.ToolStripMenuItem();
+            this.Separator7 = new System.Windows.Forms.ToolStripSeparator();
+            this.CloseMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.Dialog_Load_Image = new System.Windows.Forms.OpenFileDialog();
             this.Index1 = new System.Windows.Forms.Button();
             this.Index2 = new System.Windows.Forms.Button();
@@ -98,8 +102,6 @@ namespace Puzzle
             this.Index7 = new System.Windows.Forms.Button();
             this.Index8 = new System.Windows.Forms.Button();
             this.Index9 = new System.Windows.Forms.Button();
-            this.EnglishLanguage = new System.Windows.Forms.ToolStripMenuItem();
-            this.SerbianLatinLanguage = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.Square1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Square2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Square3)).BeginInit();
@@ -213,6 +215,7 @@ namespace Puzzle
             // 
             // Puzzle_Options
             // 
+            this.Puzzle_Options.AutoClose = false;
             this.Puzzle_Options.BackColor = System.Drawing.Color.White;
             this.Puzzle_Options.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.MenuTitle,
@@ -230,7 +233,9 @@ namespace Puzzle
             this.Separator5,
             this.PuzzleSolution,
             this.Separator6,
-            this.RandomBlankTileIndex});
+            this.RandomBlankTileIndex,
+            this.Separator7,
+            this.CloseMenu});
             this.Puzzle_Options.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.Table;
             this.Puzzle_Options.Name = "contextMenuStrip1";
             this.Puzzle_Options.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
@@ -245,6 +250,19 @@ namespace Puzzle
             this.SerbianLatinLanguage});
             this.MenuTitle.Name = "MenuTitle";
             resources.ApplyResources(this.MenuTitle, "MenuTitle");
+            // 
+            // EnglishLanguage
+            // 
+            this.EnglishLanguage.CheckOnClick = true;
+            this.EnglishLanguage.Name = "EnglishLanguage";
+            resources.ApplyResources(this.EnglishLanguage, "EnglishLanguage");
+            this.EnglishLanguage.Click += new System.EventHandler(this.EnglishLanguageClick);
+            // 
+            // SerbianLatinLanguage
+            // 
+            this.SerbianLatinLanguage.Name = "SerbianLatinLanguage";
+            resources.ApplyResources(this.SerbianLatinLanguage, "SerbianLatinLanguage");
+            this.SerbianLatinLanguage.Click += new System.EventHandler(this.SerbianLatinLanguageClick);
             // 
             // Separator1
             // 
@@ -334,6 +352,17 @@ namespace Puzzle
             this.RandomBlankTileIndex.CheckOnClick = true;
             this.RandomBlankTileIndex.Name = "RandomBlankTileIndex";
             resources.ApplyResources(this.RandomBlankTileIndex, "RandomBlankTileIndex");
+            // 
+            // Separator7
+            // 
+            this.Separator7.Name = "Separator7";
+            resources.ApplyResources(this.Separator7, "Separator7");
+            // 
+            // CloseMenu
+            // 
+            this.CloseMenu.Name = "CloseMenu";
+            resources.ApplyResources(this.CloseMenu, "CloseMenu");
+            this.CloseMenu.Click += new System.EventHandler(this.Close_Menu);
             // 
             // Dialog_Load_Image
             // 
@@ -438,21 +467,6 @@ namespace Puzzle
             this.Index9.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Index9MouseDown);
             this.Index9.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Index9MouseUp);
             // 
-            // EnglishLanguage
-            // 
-            this.EnglishLanguage.Checked = true;
-            this.EnglishLanguage.CheckOnClick = true;
-            this.EnglishLanguage.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.EnglishLanguage.Name = "EnglishLanguage";
-            resources.ApplyResources(this.EnglishLanguage, "EnglishLanguage");
-            this.EnglishLanguage.Click += new System.EventHandler(this.EnglishLanguageClick);
-            // 
-            // SerbianLatinLanguage
-            // 
-            this.SerbianLatinLanguage.Name = "SerbianLatinLanguage";
-            resources.ApplyResources(this.SerbianLatinLanguage, "SerbianLatinLanguage");
-            this.SerbianLatinLanguage.Click += new System.EventHandler(this.SerbianLatinLanguageClick);
-            // 
             // MainForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -534,6 +548,8 @@ namespace Puzzle
 		private System.Windows.Forms.PictureBox Square1;
         private System.Windows.Forms.ToolStripMenuItem EnglishLanguage;
         private System.Windows.Forms.ToolStripMenuItem SerbianLatinLanguage;
+        private System.Windows.Forms.ToolStripSeparator Separator7;
+        private System.Windows.Forms.ToolStripMenuItem CloseMenu;
     }
 }
 /************************************************************************
