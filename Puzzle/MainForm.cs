@@ -1,6 +1,6 @@
 ﻿/*****************************************************************************************************
  * Program name  : Puzzle                                                                            *
- * Program ver.  : 2.0                                                                               *
+ * Program ver.  : 3.0                                                                               *
  * Created by    : SharpDevelop                                                                      *
  * Code author   : Perić Željko                                                                      *
  * Code language : C#                                                                                *
@@ -17,7 +17,7 @@
  *                        Goal of the game is to put image together by                               *
  *                        placing image peaces to the right place.                                   *
  *                                                                                                   *
- *                        This can be done by switching places of pair of image peaces,               *
+ *                        This can be done by switching places of pair of image peaces,              *
  *                        that would be Jigsaw Puzzle.                                               *
  *                                                                                                   *
  *                        The other way is to push (slide) image peaces on the table                 *
@@ -1078,6 +1078,7 @@ namespace Puzzle
             Cursor = Cursors.Hand;
             Refresh();
         }
+
         void Load_Image(object sender, EventArgs e)
         {
             DialogResult Choice;
@@ -1351,7 +1352,6 @@ namespace Puzzle
             Refresh();
         }
         #endregion
-
     }
 }
 /************************************************************************
@@ -1398,9 +1398,19 @@ namespace Puzzle
  * Help on index click developed    *
  * new comments added               *
  * New version number 2.0           *
+ ************************************
  * Minоr revision of version 2.0    *
  * Author 11.06.2016                *
  * New menu option added            *
  * Previous image selection         *
  * New version number 2.0           *
+ ************************************
+ * Mајоr revision of version 2.0    *
+ * Refactoring & UI Optimization    *
+ * Author 24.03.2026                *
+ * Introduced language switching    *
+ * Unified Initialize_Menu method   *
+ * Added Game_Is_Running state      *
+ * Code cleanup and typo fixes      *
+ * New version number 3.0           *
  ************************************/
