@@ -75,6 +75,7 @@ namespace Puzzle
             this.MenuTitle = new System.Windows.Forms.ToolStripMenuItem();
             this.EnglishLanguage = new System.Windows.Forms.ToolStripMenuItem();
             this.SerbianLatinLanguage = new System.Windows.Forms.ToolStripMenuItem();
+            this.serbianCirylToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Separator1 = new System.Windows.Forms.ToolStripSeparator();
             this.SliderPuzzle = new System.Windows.Forms.ToolStripMenuItem();
             this.JigsawPuzzle = new System.Windows.Forms.ToolStripMenuItem();
@@ -247,7 +248,8 @@ namespace Puzzle
             // 
             this.MenuTitle.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.EnglishLanguage,
-            this.SerbianLatinLanguage});
+            this.SerbianLatinLanguage,
+            this.serbianCirylToolStripMenuItem});
             this.MenuTitle.Name = "MenuTitle";
             resources.ApplyResources(this.MenuTitle, "MenuTitle");
             // 
@@ -263,6 +265,12 @@ namespace Puzzle
             this.SerbianLatinLanguage.Name = "SerbianLatinLanguage";
             resources.ApplyResources(this.SerbianLatinLanguage, "SerbianLatinLanguage");
             this.SerbianLatinLanguage.Click += new System.EventHandler(this.SerbianLatinLanguageClick);
+            // 
+            // serbianCirylToolStripMenuItem
+            // 
+            this.serbianCirylToolStripMenuItem.Name = "serbianCirylToolStripMenuItem";
+            resources.ApplyResources(this.serbianCirylToolStripMenuItem, "serbianCirylToolStripMenuItem");
+            this.serbianCirylToolStripMenuItem.Click += new System.EventHandler(this.SerbianCyrlLanguageClick);
             // 
             // Separator1
             // 
@@ -550,6 +558,7 @@ namespace Puzzle
         private System.Windows.Forms.ToolStripMenuItem SerbianLatinLanguage;
         private System.Windows.Forms.ToolStripSeparator Separator7;
         private System.Windows.Forms.ToolStripMenuItem CloseMenu;
+        private System.Windows.Forms.ToolStripMenuItem serbianCirylToolStripMenuItem;
     }
 }
 /************************************************************************

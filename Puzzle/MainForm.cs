@@ -1205,6 +1205,12 @@ namespace Puzzle
                 RandomBlankTileIndex.Visible = true;
             }
         }
+
+        private void Close_Menu(object sender, EventArgs e)
+        {
+            Puzzle_Options.Close();
+            Refresh();
+        }
         #endregion
 
         #region-   Show original tile image by click on tile   -
@@ -1355,13 +1361,20 @@ namespace Puzzle
             ChangeLanguage("sr-Latn");
             Refresh();
         }
-        #endregion
 
-        private void Close_Menu(object sender, EventArgs e)
+        //
+        // Change language to Serbian (Cyril)
+        //
+        void SerbianCyrlLanguageClick(object sender, EventArgs e)
         {
-            Puzzle_Options.Close();
+            Cursor = Cursors.Hand;
+            Refresh();
+            SerbianLatinLanguage.Checked = true;
+            EnglishLanguage.Checked = false;
+            ChangeLanguage("sr-Cyrl");
             Refresh();
         }
+        #endregion
     }
 }
 /************************************************************************
