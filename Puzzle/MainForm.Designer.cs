@@ -76,6 +76,7 @@ namespace Puzzle
             this.EnglishLanguage = new System.Windows.Forms.ToolStripMenuItem();
             this.SerbianLatinLanguage = new System.Windows.Forms.ToolStripMenuItem();
             this.SerbianCyrlLanguage = new System.Windows.Forms.ToolStripMenuItem();
+            this.RussianLanguage = new System.Windows.Forms.ToolStripMenuItem();
             this.Separator1 = new System.Windows.Forms.ToolStripSeparator();
             this.SliderPuzzle = new System.Windows.Forms.ToolStripMenuItem();
             this.JigsawPuzzle = new System.Windows.Forms.ToolStripMenuItem();
@@ -249,7 +250,8 @@ namespace Puzzle
             this.MenuTitle.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.EnglishLanguage,
             this.SerbianLatinLanguage,
-            this.SerbianCyrlLanguage});
+            this.SerbianCyrlLanguage,
+            this.RussianLanguage});
             this.MenuTitle.Name = "MenuTitle";
             resources.ApplyResources(this.MenuTitle, "MenuTitle");
             // 
@@ -264,13 +266,22 @@ namespace Puzzle
             // 
             this.SerbianLatinLanguage.Name = "SerbianLatinLanguage";
             resources.ApplyResources(this.SerbianLatinLanguage, "SerbianLatinLanguage");
+            this.SerbianLatinLanguage.Tag = "sr-Latn";
             this.SerbianLatinLanguage.Click += new System.EventHandler(this.LanguageSelection_Click);
             // 
             // SerbianCyrlLanguage
             // 
             this.SerbianCyrlLanguage.Name = "SerbianCyrlLanguage";
             resources.ApplyResources(this.SerbianCyrlLanguage, "SerbianCyrlLanguage");
+            this.SerbianCyrlLanguage.Tag = "sr-Cyrl";
             this.SerbianCyrlLanguage.Click += new System.EventHandler(this.LanguageSelection_Click);
+            // 
+            // RussianLanguage
+            // 
+            this.RussianLanguage.Name = "RussianLanguage";
+            resources.ApplyResources(this.RussianLanguage, "RussianLanguage");
+            this.RussianLanguage.Tag = "ru";
+            this.RussianLanguage.Click += new System.EventHandler(this.LanguageSelection_Click);
             // 
             // Separator1
             // 
@@ -559,6 +570,7 @@ namespace Puzzle
         private System.Windows.Forms.ToolStripSeparator Separator7;
         private System.Windows.Forms.ToolStripMenuItem CloseMenu;
         private System.Windows.Forms.ToolStripMenuItem SerbianCyrlLanguage;
+        private System.Windows.Forms.ToolStripMenuItem RussianLanguage;
     }
 }
 /************************************************************************

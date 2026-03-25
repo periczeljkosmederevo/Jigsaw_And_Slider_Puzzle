@@ -131,32 +131,6 @@ namespace Puzzle
         }
 
         #region-   Initialization   -
-        /// <summary>
-        /// Detects system language and updates the menu checkmarks accordingly.
-        /// </summary>
-        private void ApplyDefaultLanguage()
-        {
-            // Get the current system UI culture name (e.g., "en-US", "sr-Latn-RS", "sr-Cyrl-RS")
-            string sysLang = CultureInfo.CurrentUICulture.Name;
-
-            if (sysLang.StartsWith("sr-Cyrl", StringComparison.OrdinalIgnoreCase))
-            {
-                SerbianCyrlLanguage.Checked = true;
-                ChangeLanguage("sr-Cyrl");
-            }
-            else if (sysLang.StartsWith("sr-Latn", StringComparison.OrdinalIgnoreCase)
-                        || sysLang.StartsWith("sr-SP", StringComparison.OrdinalIgnoreCase))
-            {
-                SerbianLatinLanguage.Checked = true;
-                ChangeLanguage("sr-Latn");
-            }
-            else
-            {
-                EnglishLanguage.Checked = true;
-                ChangeLanguage("");
-            }
-        }
-
         void Set_Table_Squares_Visibility(bool Visible, int Milliseconds)
         {
             Square1.Visible = Visible;
@@ -1348,6 +1322,46 @@ namespace Puzzle
         #endregion
 
         #region -   Language Selection    -
+        /// <summary>
+        /// Detects system language and updates the menu checkmarks accordingly.
+        /// </summary>
+        private void ApplyDefaultLanguage()
+        {
+            // Get the current system UI culture name (e.g., "en-US", "sr-Latn-RS", "sr-Cyrl-RS")
+            string sysLang = CultureInfo.CurrentUICulture.Name;
+
+            if (sysLang.StartsWith("sr-Cyrl", StringComparison.OrdinalIgnoreCase))
+            {
+                SerbianCyrlLanguage.Checked = true;
+                ChangeLanguage("sr-Cyrl");
+            }
+            else if (sysLang.StartsWith("sr-Latn", StringComparison.OrdinalIgnoreCase)
+                        || sysLang.StartsWith("sr-SP", StringComparison.OrdinalIgnoreCase))
+            {
+                SerbianLatinLanguage.Checked = true;
+                ChangeLanguage("sr-Latn");
+            }
+            else if (sysLang.StartsWith("ru", StringComparison.OrdinalIgnoreCase))
+            {
+                RussianLanguage.Checked = true;
+                ChangeLanguage("ru");
+            }
+            else if (sysLang.StartsWith("fr", StringComparison.OrdinalIgnoreCase))
+            {
+                FrenchLanguage.Checked = true;
+                ChangeLanguage("fr");
+            }
+            else if (sysLang.StartsWith("es", StringComparison.OrdinalIgnoreCase))
+            {
+                SpanishLanguage.Checked = true;
+                ChangeLanguage("es");
+            }
+            else
+            {
+                EnglishLanguage.Checked = true;
+                ChangeLanguage("");
+            }
+        }
 
         /// <summary>
         /// Main handler for language selection clicks.
@@ -1362,13 +1376,10 @@ namespace Puzzle
                 EnglishLanguage.Checked = (clickedItem == EnglishLanguage);
                 SerbianLatinLanguage.Checked = (clickedItem == SerbianLatinLanguage);
                 SerbianCyrlLanguage.Checked = (clickedItem == SerbianCyrlLanguage);
+                RussianLanguage.Checked = (clickedItem == RussianLanguage);
 
                 // Determine culture code based on the clicked item
-                string cultureCode = "";
-                if (clickedItem == SerbianLatinLanguage)
-                    cultureCode = "sr-Latn";
-                else if (clickedItem == SerbianCyrlLanguage)
-                    cultureCode = "sr-Cyrl";
+                string cultureCode = clickedItem.Tag?.ToString() ?? string.Empty;
 
                 // Execute the heavy lifting
                 ChangeLanguage(cultureCode);
