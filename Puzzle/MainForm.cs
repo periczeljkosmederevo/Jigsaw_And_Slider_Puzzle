@@ -355,7 +355,6 @@ namespace Puzzle
                 ? Translations.GetString("NewMixText")
                 : Translations.GetString("NewPuzzle.Text");
 
-            Separator1.Visible = !IsGameRunning;
             SliderPuzzle.Visible = !IsGameRunning;
             JigsawPuzzle.Visible = !IsGameRunning;
 
@@ -1377,6 +1376,8 @@ namespace Puzzle
                 SerbianLatinLanguage.Checked = (clickedItem == SerbianLatinLanguage);
                 SerbianCyrlLanguage.Checked = (clickedItem == SerbianCyrlLanguage);
                 RussianLanguage.Checked = (clickedItem == RussianLanguage);
+                FrenchLanguage.Checked = (clickedItem == FrenchLanguage);
+                SpanishLanguage.Checked = (clickedItem == SpanishLanguage);
 
                 // Determine culture code based on the clicked item
                 string cultureCode = clickedItem.Tag?.ToString() ?? string.Empty;
@@ -1434,7 +1435,7 @@ namespace Puzzle
             }
         }
 
-        #endregion    
+        #endregion
     }
 }
 /************************************************************************

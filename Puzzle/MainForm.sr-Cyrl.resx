@@ -133,6 +133,15 @@
   <data name="SerbianCyrlLanguage.Text" xml:space="preserve">
     <value>   Српски Ћирилица</value>
   </data>
+  <data name="RussianLanguage.Text" xml:space="preserve">
+    <value>   Руски</value>
+  </data>
+  <data name="FrenchLanguage.Text" xml:space="preserve">
+    <value>   Француски</value>
+  </data>
+  <data name="SpanishLanguage.Text" xml:space="preserve">
+    <value>   Шпански</value>
+  </data>
   <data name="MenuTitle.Size" type="System.Drawing.Size, System.Drawing">
     <value>264, 22</value>
   </data>
@@ -3186,16 +3195,16 @@
   <data name="NewMixText" xml:space="preserve">
     <value>   Поново промешај плочице</value>
   </data>
-  <data name="serbianCirylToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>184, 22</value>
-  </data>
-  <data name="serbianCirylToolStripMenuItem.Text" xml:space="preserve">
-    <value>   Serbian Ciryl</value>
-  </data>
   <data name="CantLoadImageMessage" xml:space="preserve">
     <value>Упс! Не можемо да учитамо ту слику. Проверите да ли је фајл исправан формат слике (JPG, PNG, BMP).</value>
   </data>
   <data name="CantLoadImageMessageTitle" xml:space="preserve">
     <value>Грешка при учитавању слике</value>
+  </data>
+  <data name="serbianCirylToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 22</value>
+  </data>
+  <data name="serbianCirylToolStripMenuItem.Text" xml:space="preserve">
+    <value>   Serbian Ciryl</value>
   </data>
 </root>

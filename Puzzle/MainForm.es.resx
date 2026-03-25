@@ -118,58 +118,58 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="EnglishLanguage.Text" xml:space="preserve">
-    <value>   Английский</value>
+    <value>   Inglés</value>
   </data>
   <data name="SerbianLatinLanguage.Text" xml:space="preserve">
-    <value>   Сербский Латиница</value>
+    <value>   Serbio Latín</value>
   </data>
   <data name="SerbianCyrlLanguage.Text" xml:space="preserve">
-    <value>   Сербский Kириллица</value>
+    <value>   Serbio Cirílico</value>
   </data>
   <data name="RussianLanguage.Text" xml:space="preserve">
-    <value>   Русский</value>
+    <value>   Ruso</value>
   </data>
   <data name="FrenchLanguage.Text" xml:space="preserve">
-    <value>   Французский</value>
+    <value>   Francés</value>
   </data>
   <data name="SpanishLanguage.Text" xml:space="preserve">
-    <value>   Испанский</value>
+    <value>   Español</value>
   </data>
   <data name="MenuTitle.Text" xml:space="preserve">
-    <value>   Настройки - Языки</value>
+    <value>   Opciones del menú - Idiomas</value>
   </data>
   <data name="SliderPuzzle.Text" xml:space="preserve">
-    <value>   Слайдер</value>
+    <value>   Rompecabezas de deslizamiento Slider</value>
   </data>
   <data name="JigsawPuzzle.Text" xml:space="preserve">
-    <value>   Перемешивание</value>
+    <value>   Rompecabezas Mezcla</value>
   </data>
   <data name="PreviousImage.Text" xml:space="preserve">
-    <value>   Предыдущее фото</value>
+    <value>   Imagen anterior</value>
   </data>
   <data name="NextImage.Text" xml:space="preserve">
-    <value>   Следующее фото</value>
+    <value>   Siguiente imagen</value>
   </data>
   <data name="LoadImage.Text" xml:space="preserve">
-    <value>   Загрузить фото из файла</value>
+    <value>   Cargar imagen desde archivo</value>
   </data>
   <data name="NewPuzzle.Text" xml:space="preserve">
-    <value>   Новая игра</value>
+    <value>   Nuevo rompecabezas</value>
   </data>
   <data name="PuzzleHelp.Text" xml:space="preserve">
-    <value>   Помощь</value>
+    <value>   Ayuda</value>
   </data>
   <data name="PuzzleSolution.Text" xml:space="preserve">
-    <value>   Решение</value>
+    <value>   Mostrar solución</value>
   </data>
   <data name="RandomBlankTileIndex.Text" xml:space="preserve">
-    <value>   Случайное положение пустого поля</value>
+    <value>   Posición aleatoria del campo vacío</value>
   </data>
   <data name="CloseMenu.Text" xml:space="preserve">
-    <value>   Закрыть меню</value>
+    <value>   Cerrar menú</value>
   </data>
   <data name="Dialog_Load_Image.Title" xml:space="preserve">
-    <value>   Выбрать фото для пазла</value>
+    <value>   Elegir imagen para el rompecabezas</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -3115,27 +3115,27 @@
 </value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>   Пятнашки - Слайдер</value>
+    <value>   Rompecabezas de deslizamiento Slider</value>
   </data>
   <data name="PuzzleIsSolved" xml:space="preserve">
-    <value>   Головоломка решена.       </value>
+    <value>   El rompecabezas está resuelto.      </value>
   </data>
   <data name="MainWindowTitleSlider" xml:space="preserve">
-    <value>   Пятнашки - Слайдер</value>
+    <value>   Rompecabezas de deslizamiento Slider</value>
   </data>
   <data name="Excellent" xml:space="preserve">
-    <value>   Отлично !!!</value>
+    <value>   ¡Excelente!</value>
   </data>
   <data name="MainWindowTitleJigsaw" xml:space="preserve">
-    <value>   Пазл - Перемешивание</value>
+    <value>   Rompecabezas Mezcla</value>
   </data>
   <data name="NewMixText" xml:space="preserve">
-    <value>   Новое перемешивание</value>
+    <value>   Nueva mezcla</value>
   </data>
   <data name="CantLoadImageMessage" xml:space="preserve">
-    <value>Упс! Не удалось загрузить изображение. Пожалуйста, убедитесь, что это правильный файл (JPG, PNG, BMP).</value>
+    <value>¡Vaya! No se pudo cargar la imagen. Por favor, asegúrese de que sea un archivo de imagen válido (JPG, PNG, BMP).</value>
   </data>
   <data name="CantLoadImageMessageTitle" xml:space="preserve">
-    <value>Ошибка загрузки изображения</value>
+    <value>Error al cargar la imagen</value>
   </data>
 </root>

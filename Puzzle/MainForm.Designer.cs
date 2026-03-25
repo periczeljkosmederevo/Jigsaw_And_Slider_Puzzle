@@ -77,6 +77,8 @@ namespace Puzzle
             this.SerbianLatinLanguage = new System.Windows.Forms.ToolStripMenuItem();
             this.SerbianCyrlLanguage = new System.Windows.Forms.ToolStripMenuItem();
             this.RussianLanguage = new System.Windows.Forms.ToolStripMenuItem();
+            this.FrenchLanguage = new System.Windows.Forms.ToolStripMenuItem();
+            this.SpanishLanguage = new System.Windows.Forms.ToolStripMenuItem();
             this.Separator1 = new System.Windows.Forms.ToolStripSeparator();
             this.SliderPuzzle = new System.Windows.Forms.ToolStripMenuItem();
             this.JigsawPuzzle = new System.Windows.Forms.ToolStripMenuItem();
@@ -251,7 +253,9 @@ namespace Puzzle
             this.EnglishLanguage,
             this.SerbianLatinLanguage,
             this.SerbianCyrlLanguage,
-            this.RussianLanguage});
+            this.RussianLanguage,
+            this.FrenchLanguage,
+            this.SpanishLanguage});
             this.MenuTitle.Name = "MenuTitle";
             resources.ApplyResources(this.MenuTitle, "MenuTitle");
             // 
@@ -282,6 +286,20 @@ namespace Puzzle
             resources.ApplyResources(this.RussianLanguage, "RussianLanguage");
             this.RussianLanguage.Tag = "ru";
             this.RussianLanguage.Click += new System.EventHandler(this.LanguageSelection_Click);
+            // 
+            // FrenchLanguage
+            // 
+            this.FrenchLanguage.Name = "FrenchLanguage";
+            resources.ApplyResources(this.FrenchLanguage, "FrenchLanguage");
+            this.FrenchLanguage.Tag = "fr";
+            this.FrenchLanguage.Click += new System.EventHandler(this.LanguageSelection_Click);
+            // 
+            // SpanishLanguage
+            // 
+            this.SpanishLanguage.Name = "SpanishLanguage";
+            resources.ApplyResources(this.SpanishLanguage, "SpanishLanguage");
+            this.SpanishLanguage.Tag = "es";
+            this.SpanishLanguage.Click += new System.EventHandler(this.LanguageSelection_Click);
             // 
             // Separator1
             // 
@@ -571,6 +589,8 @@ namespace Puzzle
         private System.Windows.Forms.ToolStripMenuItem CloseMenu;
         private System.Windows.Forms.ToolStripMenuItem SerbianCyrlLanguage;
         private System.Windows.Forms.ToolStripMenuItem RussianLanguage;
+        private System.Windows.Forms.ToolStripMenuItem FrenchLanguage;
+        private System.Windows.Forms.ToolStripMenuItem SpanishLanguage;
     }
 }
 /************************************************************************

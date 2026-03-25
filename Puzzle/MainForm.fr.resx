@@ -118,58 +118,58 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="EnglishLanguage.Text" xml:space="preserve">
-    <value>   Английский</value>
+    <value>   Anglais</value>
   </data>
   <data name="SerbianLatinLanguage.Text" xml:space="preserve">
-    <value>   Сербский Латиница</value>
+    <value>   Serbe Latin</value>
   </data>
   <data name="SerbianCyrlLanguage.Text" xml:space="preserve">
-    <value>   Сербский Kириллица</value>
+    <value>   Serbe Cyrillique</value>
   </data>
   <data name="RussianLanguage.Text" xml:space="preserve">
-    <value>   Русский</value>
+    <value>   Russe</value>
   </data>
   <data name="FrenchLanguage.Text" xml:space="preserve">
-    <value>   Французский</value>
+    <value>   Français</value>
   </data>
   <data name="SpanishLanguage.Text" xml:space="preserve">
-    <value>   Испанский</value>
+    <value>   Espagnol</value>
   </data>
   <data name="MenuTitle.Text" xml:space="preserve">
-    <value>   Настройки - Языки</value>
+    <value>   Options du menu - Langues</value>
   </data>
   <data name="SliderPuzzle.Text" xml:space="preserve">
-    <value>   Слайдер</value>
+    <value>   Jeu du Taquin Slider</value>
   </data>
   <data name="JigsawPuzzle.Text" xml:space="preserve">
-    <value>   Перемешивание</value>
+    <value>   Puzzle Mélange</value>
   </data>
   <data name="PreviousImage.Text" xml:space="preserve">
-    <value>   Предыдущее фото</value>
+    <value>   Image précédente</value>
   </data>
   <data name="NextImage.Text" xml:space="preserve">
-    <value>   Следующее фото</value>
+    <value>   Image suivante</value>
   </data>
   <data name="LoadImage.Text" xml:space="preserve">
-    <value>   Загрузить фото из файла</value>
+    <value>   Charger l'image à partir d'un fichier</value>
   </data>
   <data name="NewPuzzle.Text" xml:space="preserve">
-    <value>   Новая игра</value>
+    <value>   Nouveau puzzle</value>
   </data>
   <data name="PuzzleHelp.Text" xml:space="preserve">
-    <value>   Помощь</value>
+    <value>   Aide</value>
   </data>
   <data name="PuzzleSolution.Text" xml:space="preserve">
-    <value>   Решение</value>
+    <value>   Afficher la solution</value>
   </data>
   <data name="RandomBlankTileIndex.Text" xml:space="preserve">
-    <value>   Случайное положение пустого поля</value>
+    <value>   Position aléatoire du champ vide</value>
   </data>
   <data name="CloseMenu.Text" xml:space="preserve">
-    <value>   Закрыть меню</value>
+    <value>   Fermer le menu</value>
   </data>
   <data name="Dialog_Load_Image.Title" xml:space="preserve">
-    <value>   Выбрать фото для пазла</value>
+    <value>   Choisir une image pour le puzzle</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -3115,27 +3115,27 @@
 </value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>   Пятнашки - Слайдер</value>
+    <value>   Jeu du Taquin Slider</value>
   </data>
   <data name="PuzzleIsSolved" xml:space="preserve">
-    <value>   Головоломка решена.       </value>
+    <value>   Le puzzle est résolu.</value>
   </data>
   <data name="MainWindowTitleSlider" xml:space="preserve">
-    <value>   Пятнашки - Слайдер</value>
+    <value>   Jeu du Taquin Slider</value>
   </data>
   <data name="Excellent" xml:space="preserve">
-    <value>   Отлично !!!</value>
+    <value>   Excellent !!!</value>
   </data>
   <data name="MainWindowTitleJigsaw" xml:space="preserve">
-    <value>   Пазл - Перемешивание</value>
+    <value>   Puzzle Mélange</value>
   </data>
   <data name="NewMixText" xml:space="preserve">
-    <value>   Новое перемешивание</value>
+    <value>   Nouveau mélange</value>
   </data>
   <data name="CantLoadImageMessage" xml:space="preserve">
-    <value>Упс! Не удалось загрузить изображение. Пожалуйста, убедитесь, что это правильный файл (JPG, PNG, BMP).</value>
+    <value>Oups ! Impossible de charger cette image. Veuillez vous assurer qu'il s'agit d'un fichier image valide (JPG, PNG, BMP).</value>
   </data>
   <data name="CantLoadImageMessageTitle" xml:space="preserve">
-    <value>Ошибка загрузки изображения</value>
+    <value>Erreur lors du chargement de l'image</value>
   </data>
 </root>

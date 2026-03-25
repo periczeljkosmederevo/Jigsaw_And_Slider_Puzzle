@@ -117,905 +117,809 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Index4.Text" xml:space="preserve">
-    <value>4</value>
-  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Square2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="Square1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Index7.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;Dialog_Load_Image.Name" xml:space="preserve">
-    <value>Dialog_Load_Image</value>
-  </data>
-  <data name="&gt;&gt;Square5.Name" xml:space="preserve">
-    <value>Square5</value>
-  </data>
-  <data name="PuzzleSolution.Text" xml:space="preserve">
-    <value>   Show solution</value>
-  </data>
-  <data name="Index6.Text" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="Index9.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="Square5.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="Square9.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="&gt;&gt;CloseMenu.Name" xml:space="preserve">
-    <value>CloseMenu</value>
-  </data>
-  <data name="Index3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="Square1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>None</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="Square3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>240, 0</value>
+  <data name="Square1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
   </data>
-  <data name="&gt;&gt;Square3.Name" xml:space="preserve">
-    <value>Square3</value>
+  <data name="Square1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 120</value>
   </data>
-  <data name="&gt;&gt;Separator6.Name" xml:space="preserve">
-    <value>Separator6</value>
+  <data name="Square1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
   </data>
-  <data name="SerbianCyrlLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Square1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
-  <data name="Index5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="Square9.Visible" type="System.Boolean, mscorlib">
+  <data name="Square1.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="Square9.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>StretchImage</value>
-  </data>
-  <data name="&gt;&gt;Index6.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;Separator3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Square8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>120, 240</value>
-  </data>
-  <data name="Square2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="&gt;&gt;Square8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Square8.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="Square8.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="Index8.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Courier New, 11.25pt, style=Bold</value>
-  </data>
-  <data name="Square7.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>StretchImage</value>
-  </data>
-  <data name="NewPuzzle.Text" xml:space="preserve">
-    <value>   New puzzle</value>
-  </data>
-  <data name="&gt;&gt;Square4.ZOrder" xml:space="preserve">
-    <value>15</value>
+  <data name="&gt;&gt;Square1.Name" xml:space="preserve">
+    <value>Square1</value>
   </data>
   <data name="&gt;&gt;Square1.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Index1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>15, 20</value>
-  </data>
-  <data name="&gt;&gt;Index5.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Square1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;CloseMenu.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;Square1.ZOrder" xml:space="preserve">
+    <value>18</value>
   </data>
-  <data name="Index6.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
+  <data name="Square2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
   </data>
-  <data name="SerbianLatinLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="&gt;&gt;Square9.Name" xml:space="preserve">
-    <value>Square9</value>
-  </data>
-  <data name="&gt;&gt;MenuTitle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Square4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 120</value>
-  </data>
-  <data name="&gt;&gt;NextImage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Index2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="Index7.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="Index5.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Courier New, 11.25pt, style=Bold</value>
-  </data>
-  <data name="Square6.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>StretchImage</value>
-  </data>
-  <data name="&gt;&gt;NextImage.Name" xml:space="preserve">
-    <value>NextImage</value>
-  </data>
-  <data name="&gt;&gt;Index3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;EnglishLanguage.Name" xml:space="preserve">
-    <value>EnglishLanguage</value>
+  <data name="Square2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
   </data>
   <data name="Square2.Location" type="System.Drawing.Point, System.Drawing">
     <value>120, 0</value>
   </data>
-  <data name="&gt;&gt;Index1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Square2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 120</value>
   </data>
-  <data name="SerbianCyrlLanguage.Text" xml:space="preserve">
-    <value>   Serbian Cyrl</value>
+  <data name="Square2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
   </data>
-  <data name="&gt;&gt;Index1.Name" xml:space="preserve">
-    <value>Index1</value>
+  <data name="Square2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
-  <data name="Square9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>240, 240</value>
+  <data name="Square2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
-  <data name="&gt;&gt;Index7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;Square2.Name" xml:space="preserve">
+    <value>Square2</value>
   </data>
-  <data name="Square7.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="&gt;&gt;Square2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Square2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Square2.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="Square3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="Index5.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
+  <data name="Square3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
   </data>
-  <data name="Index8.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
-    <value>TextAboveImage</value>
+  <data name="Square3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 0</value>
   </data>
-  <data name="Index5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>15, 20</value>
+  <data name="Square3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 120</value>
   </data>
-  <data name="Index3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
+  <data name="Square3.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
   </data>
-  <data name="Index1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Courier New, 11.25pt, style=Bold</value>
+  <data name="Square3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
-  <data name="&gt;&gt;Square4.Parent" xml:space="preserve">
+  <data name="Square3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Square3.Name" xml:space="preserve">
+    <value>Square3</value>
+  </data>
+  <data name="&gt;&gt;Square3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Square3.Parent" xml:space="preserve">
     <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Square3.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="Square4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
   </data>
   <data name="Square4.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="Square2.Visible" type="System.Boolean, mscorlib">
+  <data name="Square4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 120</value>
+  </data>
+  <data name="Square4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 120</value>
+  </data>
+  <data name="Square4.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="Square4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="Square4.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="&gt;&gt;Square4.Name" xml:space="preserve">
     <value>Square4</value>
   </data>
-  <data name="&gt;&gt;PuzzleSolution.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Index8.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="&gt;&gt;Index4.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;Square8.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;MenuTitle.Name" xml:space="preserve">
-    <value>MenuTitle</value>
-  </data>
-  <data name="RandomBlankTileIndex.Text" xml:space="preserve">
-    <value>   Random position of empty field</value>
-  </data>
-  <data name="&gt;&gt;Square6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="PreviousImage.Text" xml:space="preserve">
-    <value>   Previous image</value>
-  </data>
-  <data name="Index1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="Square4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="&gt;&gt;Index6.Name" xml:space="preserve">
-    <value>Index6</value>
-  </data>
-  <data name="&gt;&gt;Square2.Name" xml:space="preserve">
-    <value>Square2</value>
-  </data>
-  <data name="&gt;&gt;Square5.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="Index1.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="Index4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>15, 20</value>
-  </data>
-  <data name="Index3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>242, 2</value>
-  </data>
-  <data name="Index3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Courier New, 11.25pt, style=Bold</value>
-  </data>
-  <data name="RandomBlankTileIndex.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="Index1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 2</value>
-  </data>
-  <data name="Index1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="&gt;&gt;Square2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="Square7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 240</value>
-  </data>
-  <data name="&gt;&gt;JigsawPuzzle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Index4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Index6.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
-    <value>TextAboveImage</value>
-  </data>
-  <data name="Index6.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Courier New, 11.25pt, style=Bold</value>
-  </data>
-  <data name="Index8.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="Index9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>242, 242</value>
-  </data>
-  <data name="&gt;&gt;Square9.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="Dialog_Load_Image.Title" xml:space="preserve">
-    <value>   Choose image for puzzle</value>
-  </data>
-  <data name="Square9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 120</value>
-  </data>
-  <data name="Index3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>15, 20</value>
-  </data>
-  <data name="&gt;&gt;Square9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
-  </data>
-  <data name="&gt;&gt;Separator5.Name" xml:space="preserve">
-    <value>Separator5</value>
-  </data>
-  <data name="&gt;&gt;SliderPuzzle.Name" xml:space="preserve">
-    <value>SliderPuzzle</value>
-  </data>
-  <data name="Square6.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="Square1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>StretchImage</value>
-  </data>
-  <data name="Index8.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="Index5.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;Index9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Index7.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Courier New, 11.25pt, style=Bold</value>
-  </data>
-  <data name="Square3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="Index3.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="Square3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>361, 360</value>
-  </data>
-  <data name="Index4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 122</value>
-  </data>
-  <data name="Square6.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>None</value>
-  </data>
   <data name="&gt;&gt;Square4.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Index4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="NewPuzzle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>251, 22</value>
-  </data>
-  <data name="Dialog_Load_Image.Filter" xml:space="preserve">
-    <value>Bitmap img|*.bmp|Gif img|*.gif|Png img|*.png|Jpeg img|*.jpg|Tiff img|*.tif|All documents|*.*</value>
-  </data>
-  <data name="Square5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 120</value>
-  </data>
-  <data name="&gt;&gt;LoadImage.Name" xml:space="preserve">
-    <value>LoadImage</value>
-  </data>
-  <data name="Square6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>240, 120</value>
-  </data>
-  <data name="Square5.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="NextImage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>251, 22</value>
-  </data>
-  <data name="Index5.Text" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="Index2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>122, 2</value>
-  </data>
-  <data name="&gt;&gt;Index5.Name" xml:space="preserve">
-    <value>Index5</value>
-  </data>
-  <data name="&gt;&gt;Separator3.Name" xml:space="preserve">
-    <value>Separator3</value>
-  </data>
-  <data name="&gt;&gt;Square2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="RandomBlankTileIndex.Size" type="System.Drawing.Size, System.Drawing">
-    <value>251, 22</value>
-  </data>
-  <data name="Index8.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;Square1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Square4.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;Puzzle_Options.Name" xml:space="preserve">
-    <value>Puzzle_Options</value>
-  </data>
-  <data name="LoadImage.Text" xml:space="preserve">
-    <value>   Load image from file</value>
-  </data>
-  <data name="Index9.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Courier New, 11.25pt, style=Bold</value>
-  </data>
-  <data name="Square3.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;Separator6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Index9.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
-    <value>TextAboveImage</value>
-  </data>
-  <data name="&gt;&gt;Square6.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="Square6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 120</value>
-  </data>
-  <data name="&gt;&gt;Square7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="MenuTitle.Text" xml:space="preserve">
-    <value>   Menu options - Languages</value>
-  </data>
-  <data name="&gt;&gt;PuzzleHelp.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Index2.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;Index1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="JigsawPuzzle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>251, 22</value>
-  </data>
-  <data name="Index2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="&gt;&gt;Index9.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;SerbianCyrlLanguage.Name" xml:space="preserve">
-    <value>SerbianCyrlLanguage</value>
-  </data>
-  <data name="Puzzle_Options.Size" type="System.Drawing.Size, System.Drawing">
-    <value>252, 310</value>
-  </data>
-  <data name="Square1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 120</value>
-  </data>
-  <data name="&gt;&gt;Index2.Name" xml:space="preserve">
-    <value>Index2</value>
-  </data>
-  <data name="&gt;&gt;Index9.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="Index2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Courier New, 11.25pt, style=Bold</value>
-  </data>
-  <data name="EnglishLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="Index8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>15, 20</value>
-  </data>
-  <data name="&gt;&gt;Square7.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;Square7.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Square1.Name" xml:space="preserve">
-    <value>Square1</value>
-  </data>
-  <data name="Square6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="EnglishLanguage.Text" xml:space="preserve">
-    <value>   English</value>
-  </data>
-  <data name="Square6.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="CloseMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>251, 22</value>
-  </data>
-  <data name="Index1.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
-    <value>TextAboveImage</value>
-  </data>
-  <data name="Square8.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>StretchImage</value>
-  </data>
-  <data name="&gt;&gt;Square9.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="Square4.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;Separator1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Index1.Text" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="Index7.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;Square4.ZOrder" xml:space="preserve">
     <value>15</value>
   </data>
-  <data name="Square2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 120</value>
-  </data>
-  <data name="&gt;&gt;PreviousImage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Dialog_Load_Image.Type" xml:space="preserve">
-    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Index2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="Index1.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;Square7.Name" xml:space="preserve">
-    <value>Square7</value>
-  </data>
-  <data name="PuzzleSolution.Size" type="System.Drawing.Size, System.Drawing">
-    <value>251, 22</value>
-  </data>
-  <data name="&gt;&gt;Separator5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Square1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="Index9.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="Square5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="&gt;&gt;Index8.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;Separator7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Square8.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="Square5.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>None</value>
-  </data>
-  <data name="&gt;&gt;Index3.Name" xml:space="preserve">
-    <value>Index3</value>
-  </data>
-  <data name="&gt;&gt;Square5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NewPuzzle.Name" xml:space="preserve">
-    <value>NewPuzzle</value>
-  </data>
-  <data name="&gt;&gt;Index8.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="Square2.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;SerbianLatinLanguage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Index3.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="JigsawPuzzle.Text" xml:space="preserve">
-    <value>   Jigsaw puzzle</value>
-  </data>
-  <data name="Square3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 120</value>
-  </data>
-  <data name="Square5.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;PuzzleSolution.Name" xml:space="preserve">
-    <value>PuzzleSolution</value>
-  </data>
-  <data name="Index7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>15, 20</value>
-  </data>
-  <data name="&gt;&gt;Index9.Name" xml:space="preserve">
-    <value>Index9</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>   Slider Puzzle</value>
-  </data>
-  <data name="MenuTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>251, 22</value>
-  </data>
-  <data name="Square8.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="Index7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 242</value>
-  </data>
-  <data name="Index6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="&gt;&gt;Index1.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="Square1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="Square7.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;Index2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Puzzle_Options.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Index6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>242, 122</value>
-  </data>
-  <data name="&gt;&gt;Square2.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
-  <data name="Index6.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="Separator7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>248, 6</value>
-  </data>
-  <data name="&gt;&gt;Index4.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="Square1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="Separator6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>248, 6</value>
-  </data>
-  <data name="&gt;&gt;Separator1.Name" xml:space="preserve">
-    <value>Separator1</value>
-  </data>
-  <data name="Square5.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>StretchImage</value>
-  </data>
-  <data name="Index3.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="Index2.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
-    <value>TextAboveImage</value>
-  </data>
-  <data name="&gt;&gt;Square8.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Index7.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;Index8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Square8.Name" xml:space="preserve">
-    <value>Square8</value>
-  </data>
-  <data name="&gt;&gt;SerbianLatinLanguage.Name" xml:space="preserve">
-    <value>SerbianLatinLanguage</value>
-  </data>
-  <data name="Square3.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>StretchImage</value>
-  </data>
-  <data name="Square7.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="Index8.Text" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="Index3.Text" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="Index7.Text" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="SliderPuzzle.Text" xml:space="preserve">
-    <value>   Slider puzzle</value>
-  </data>
-  <data name="PuzzleHelp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>251, 22</value>
-  </data>
-  <data name="Separator3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>248, 6</value>
-  </data>
-  <data name="Square4.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>StretchImage</value>
-  </data>
-  <data name="Index4.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="Separator2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>248, 6</value>
-  </data>
-  <data name="&gt;&gt;Square6.Name" xml:space="preserve">
-    <value>Square6</value>
-  </data>
-  <data name="&gt;&gt;PuzzleHelp.Name" xml:space="preserve">
-    <value>PuzzleHelp</value>
-  </data>
-  <data name="Index4.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
-    <value>TextAboveImage</value>
-  </data>
-  <data name="Separator5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>248, 6</value>
-  </data>
-  <data name="&gt;&gt;Index8.Name" xml:space="preserve">
-    <value>Index8</value>
-  </data>
-  <data name="Index2.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="Separator4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>248, 6</value>
-  </data>
-  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="PreviousImage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>251, 22</value>
-  </data>
-  <data name="Square2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>StretchImage</value>
-  </data>
-  <data name="Index7.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
-    <value>TextAboveImage</value>
-  </data>
-  <data name="SliderPuzzle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>251, 22</value>
-  </data>
-  <data name="Index9.Text" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;Separator7.Name" xml:space="preserve">
-    <value>Separator7</value>
-  </data>
-  <data name="&gt;&gt;PreviousImage.Name" xml:space="preserve">
-    <value>PreviousImage</value>
-  </data>
-  <data name="&gt;&gt;RandomBlankTileIndex.Name" xml:space="preserve">
-    <value>RandomBlankTileIndex</value>
   </data>
   <data name="Square5.Location" type="System.Drawing.Point, System.Drawing">
     <value>120, 120</value>
   </data>
-  <data name="Square9.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;Index6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Index5.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;JigsawPuzzle.Name" xml:space="preserve">
-    <value>JigsawPuzzle</value>
-  </data>
-  <data name="&gt;&gt;SerbianCyrlLanguage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Square7.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Square5.Size" type="System.Drawing.Size, System.Drawing">
     <value>120, 120</value>
   </data>
-  <data name="Separator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>248, 6</value>
+  <data name="Square5.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
   </data>
-  <data name="Square1.Visible" type="System.Boolean, mscorlib">
+  <data name="Square5.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Square5.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="&gt;&gt;SliderPuzzle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;Square5.Name" xml:space="preserve">
+    <value>Square5</value>
   </data>
-  <data name="Index6.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
+  <data name="&gt;&gt;Square5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;Separator2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;Square5.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="&gt;&gt;Separator4.Name" xml:space="preserve">
-    <value>Separator4</value>
+  <data name="&gt;&gt;Square5.ZOrder" xml:space="preserve">
+    <value>14</value>
   </data>
-  <data name="&gt;&gt;Separator2.Name" xml:space="preserve">
-    <value>Separator2</value>
+  <data name="Square6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Square6.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Square6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 120</value>
+  </data>
+  <data name="Square6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 120</value>
+  </data>
+  <data name="Square6.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="Square6.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="Square6.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Square6.Name" xml:space="preserve">
+    <value>Square6</value>
+  </data>
+  <data name="&gt;&gt;Square6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Square6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Square6.ZOrder" xml:space="preserve">
+    <value>13</value>
   </data>
   <data name="Square7.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="Index4.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
+  <data name="Square7.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
   </data>
-  <data name="Index5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>122, 122</value>
+  <data name="Square7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 240</value>
   </data>
-  <data name="Index2.Text" xml:space="preserve">
-    <value>2</value>
+  <data name="Square7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 120</value>
   </data>
-  <data name="Index9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>15, 20</value>
+  <data name="Square7.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
   </data>
-  <data name="LoadImage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>251, 22</value>
+  <data name="Square7.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
-  <data name="&gt;&gt;Index7.Parent" xml:space="preserve">
+  <data name="Square7.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Square7.Name" xml:space="preserve">
+    <value>Square7</value>
+  </data>
+  <data name="&gt;&gt;Square7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Square7.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="PuzzleHelp.Text" xml:space="preserve">
-    <value>   Help</value>
+  <data name="&gt;&gt;Square7.ZOrder" xml:space="preserve">
+    <value>10</value>
   </data>
-  <data name="Index5.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
+  <data name="Square8.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Square8.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Square8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 240</value>
+  </data>
+  <data name="Square8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 120</value>
+  </data>
+  <data name="Square8.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="Square8.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="Square8.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Square8.Name" xml:space="preserve">
+    <value>Square8</value>
+  </data>
+  <data name="&gt;&gt;Square8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Square8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Square8.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Square9.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Square9.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Square9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 240</value>
+  </data>
+  <data name="Square9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 120</value>
+  </data>
+  <data name="Square9.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="Square9.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="Square9.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Square9.Name" xml:space="preserve">
+    <value>Square9</value>
+  </data>
+  <data name="&gt;&gt;Square9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Square9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Square9.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Puzzle_Options.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>335, 20</value>
+  </data>
+  <data name="EnglishLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="EnglishLanguage.Text" xml:space="preserve">
+    <value>   English</value>
+  </data>
+  <data name="SerbianLatinLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
   </data>
   <data name="SerbianLatinLanguage.Text" xml:space="preserve">
     <value>   Serbian Latin</value>
   </data>
-  <data name="Square1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>None</value>
+  <data name="SerbianCyrlLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>MainForm</value>
+  <data name="SerbianCyrlLanguage.Text" xml:space="preserve">
+    <value>   Serbian Cyrl</value>
   </data>
-  <data name="&gt;&gt;Index3.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="RussianLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
   </data>
-  <data name="&gt;&gt;Separator4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="RussianLanguage.Text" xml:space="preserve">
+    <value>   Russian</value>
   </data>
-  <data name="Index7.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
+  <data name="FrenchLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
   </data>
-  <data name="&gt;&gt;Index4.Name" xml:space="preserve">
-    <value>Index4</value>
+  <data name="FrenchLanguage.Text" xml:space="preserve">
+    <value>   French</value>
   </data>
-  <data name="&gt;&gt;Index7.Name" xml:space="preserve">
-    <value>Index7</value>
+  <data name="SpanishLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="SpanishLanguage.Text" xml:space="preserve">
+    <value>   Spanish</value>
+  </data>
+  <data name="MenuTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>251, 22</value>
+  </data>
+  <data name="MenuTitle.Text" xml:space="preserve">
+    <value>   Menu options - Languages</value>
+  </data>
+  <data name="Separator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 6</value>
+  </data>
+  <data name="SliderPuzzle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>251, 22</value>
+  </data>
+  <data name="SliderPuzzle.Text" xml:space="preserve">
+    <value>   Slider puzzle</value>
+  </data>
+  <data name="JigsawPuzzle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>251, 22</value>
+  </data>
+  <data name="JigsawPuzzle.Text" xml:space="preserve">
+    <value>   Jigsaw puzzle</value>
+  </data>
+  <data name="Separator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 6</value>
+  </data>
+  <data name="PreviousImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>251, 22</value>
+  </data>
+  <data name="PreviousImage.Text" xml:space="preserve">
+    <value>   Previous image</value>
+  </data>
+  <data name="NextImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>251, 22</value>
   </data>
   <data name="NextImage.Text" xml:space="preserve">
     <value>   Next image</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="LoadImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>251, 22</value>
   </data>
-  <data name="Square4.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="LoadImage.Text" xml:space="preserve">
+    <value>   Load image from file</value>
   </data>
-  <data name="Index2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>15, 20</value>
+  <data name="Separator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 6</value>
   </data>
-  <data name="Index9.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="NewPuzzle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>251, 22</value>
   </data>
-  <data name="Square4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 120</value>
+  <data name="NewPuzzle.Text" xml:space="preserve">
+    <value>   New puzzle</value>
+  </data>
+  <data name="Separator4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 6</value>
+  </data>
+  <data name="PuzzleHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>251, 22</value>
+  </data>
+  <data name="PuzzleHelp.Text" xml:space="preserve">
+    <value>   Help</value>
+  </data>
+  <data name="Separator5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 6</value>
+  </data>
+  <data name="PuzzleSolution.Size" type="System.Drawing.Size, System.Drawing">
+    <value>251, 22</value>
+  </data>
+  <data name="PuzzleSolution.Text" xml:space="preserve">
+    <value>   Show solution</value>
+  </data>
+  <data name="Separator6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 6</value>
+  </data>
+  <data name="RandomBlankTileIndex.Size" type="System.Drawing.Size, System.Drawing">
+    <value>251, 22</value>
+  </data>
+  <data name="RandomBlankTileIndex.Text" xml:space="preserve">
+    <value>   Random position of empty field</value>
+  </data>
+  <data name="RandomBlankTileIndex.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="Separator7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 6</value>
+  </data>
+  <data name="CloseMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>251, 22</value>
   </data>
   <data name="CloseMenu.Text" xml:space="preserve">
     <value>   Close Menu</value>
   </data>
-  <data name="&gt;&gt;Index6.Parent" xml:space="preserve">
+  <data name="Puzzle_Options.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 310</value>
+  </data>
+  <data name="&gt;&gt;Puzzle_Options.Name" xml:space="preserve">
+    <value>Puzzle_Options</value>
+  </data>
+  <data name="&gt;&gt;Puzzle_Options.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Dialog_Load_Image.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>17, 17</value>
+  </data>
+  <data name="Dialog_Load_Image.Filter" xml:space="preserve">
+    <value>Bitmap img|*.bmp|Gif img|*.gif|Png img|*.png|Jpeg img|*.jpg|Tiff img|*.tif|All documents|*.*</value>
+  </data>
+  <data name="Dialog_Load_Image.Title" xml:space="preserve">
+    <value>   Choose image for puzzle</value>
+  </data>
+  <data name="Index1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Index1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Index1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 11.25pt, style=Bold</value>
+  </data>
+  <data name="Index1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 2</value>
+  </data>
+  <data name="Index1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 20</value>
+  </data>
+  <data name="Index1.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="Index1.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Index1.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>TextAboveImage</value>
+  </data>
+  <data name="Index1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Index1.Name" xml:space="preserve">
+    <value>Index1</value>
+  </data>
+  <data name="&gt;&gt;Index1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Index1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Index1.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="Index2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Index2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Index2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 11.25pt, style=Bold</value>
+  </data>
+  <data name="Index2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 2</value>
+  </data>
+  <data name="Index2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 20</value>
+  </data>
+  <data name="Index2.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="Index2.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Index2.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>TextAboveImage</value>
+  </data>
+  <data name="Index2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Index2.Name" xml:space="preserve">
+    <value>Index2</value>
+  </data>
+  <data name="&gt;&gt;Index2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Index2.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Index2.ZOrder" xml:space="preserve">
     <value>11</value>
   </data>
-  <data name="Square9.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="Index3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="&gt;&gt;Square1.ZOrder" xml:space="preserve">
-    <value>18</value>
+  <data name="Index3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
-  <data name="&gt;&gt;LoadImage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Index3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 11.25pt, style=Bold</value>
   </data>
-  <data name="&gt;&gt;Square5.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="Index3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>242, 2</value>
   </data>
-  <data name="Square3.Visible" type="System.Boolean, mscorlib">
+  <data name="Index3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 20</value>
+  </data>
+  <data name="Index3.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="Index3.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Index3.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>TextAboveImage</value>
+  </data>
+  <data name="Index3.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="Square8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 120</value>
+  <data name="&gt;&gt;Index3.Name" xml:space="preserve">
+    <value>Index3</value>
   </data>
-  <data name="&gt;&gt;EnglishLanguage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;Index3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;NewPuzzle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;Index3.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="Index8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>122, 242</value>
+  <data name="&gt;&gt;Index3.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
-  <data name="Index9.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
+  <data name="Index4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
   </data>
-  <data name="&gt;&gt;Square3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Index4.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
-  <data name="&gt;&gt;RandomBlankTileIndex.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Index4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 11.25pt, style=Bold</value>
+  </data>
+  <data name="Index4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 122</value>
+  </data>
+  <data name="Index4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 20</value>
+  </data>
+  <data name="Index4.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="Index4.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Index4.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>TextAboveImage</value>
+  </data>
+  <data name="Index4.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Index4.Name" xml:space="preserve">
+    <value>Index4</value>
+  </data>
+  <data name="&gt;&gt;Index4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Index4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Index4.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Index5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Index5.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Index5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 11.25pt, style=Bold</value>
+  </data>
+  <data name="Index5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 122</value>
+  </data>
+  <data name="Index5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 20</value>
+  </data>
+  <data name="Index5.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="Index5.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Index5.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>TextAboveImage</value>
+  </data>
+  <data name="Index5.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Index5.Name" xml:space="preserve">
+    <value>Index5</value>
   </data>
   <data name="&gt;&gt;Index5.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Index3.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+  <data name="&gt;&gt;Index5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Index5.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Index6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Index6.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Index6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 11.25pt, style=Bold</value>
+  </data>
+  <data name="Index6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>242, 122</value>
+  </data>
+  <data name="Index6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 20</value>
+  </data>
+  <data name="Index6.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="Index6.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Index6.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
     <value>TextAboveImage</value>
+  </data>
+  <data name="Index6.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Index6.Name" xml:space="preserve">
+    <value>Index6</value>
+  </data>
+  <data name="&gt;&gt;Index6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Index6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Index6.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Index7.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Index7.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Index7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 11.25pt, style=Bold</value>
+  </data>
+  <data name="Index7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 242</value>
+  </data>
+  <data name="Index7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 20</value>
+  </data>
+  <data name="Index7.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="Index7.Text" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Index7.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>TextAboveImage</value>
+  </data>
+  <data name="Index7.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Index7.Name" xml:space="preserve">
+    <value>Index7</value>
+  </data>
+  <data name="&gt;&gt;Index7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Index7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Index7.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Index8.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Index8.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Index8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 11.25pt, style=Bold</value>
+  </data>
+  <data name="Index8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 242</value>
+  </data>
+  <data name="Index8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 20</value>
+  </data>
+  <data name="Index8.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="Index8.Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Index8.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>TextAboveImage</value>
+  </data>
+  <data name="Index8.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Index8.Name" xml:space="preserve">
+    <value>Index8</value>
+  </data>
+  <data name="&gt;&gt;Index8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Index8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Index8.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Index9.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="Index9.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Index9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 11.25pt, style=Bold</value>
+  </data>
+  <data name="Index9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>242, 242</value>
+  </data>
+  <data name="Index9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 20</value>
+  </data>
+  <data name="Index9.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="Index9.Text" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Index9.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>TextAboveImage</value>
+  </data>
+  <data name="Index9.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Index9.Name" xml:space="preserve">
+    <value>Index9</value>
+  </data>
+  <data name="&gt;&gt;Index9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Index9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Index9.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.Locked" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3959,44 +3863,176 @@
         /HvD/wAtj/zzX2oooA//2Q==
 </value>
   </data>
-  <data name="Index6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>15, 20</value>
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
   </data>
-  <data name="Index4.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>361, 360</value>
   </data>
-  <data name="Square5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
   </data>
-  <data name="&gt;&gt;Square6.ZOrder" xml:space="preserve">
-    <value>13</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>   Slider Puzzle</value>
   </data>
-  <data name="&gt;&gt;Square3.ZOrder" xml:space="preserve">
-    <value>16</value>
+  <data name="&gt;&gt;MenuTitle.Name" xml:space="preserve">
+    <value>MenuTitle</value>
   </data>
-  <data name="&gt;&gt;Square3.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;MenuTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Index4.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Courier New, 11.25pt, style=Bold</value>
+  <data name="&gt;&gt;EnglishLanguage.Name" xml:space="preserve">
+    <value>EnglishLanguage</value>
   </data>
-  <data name="Index5.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
-    <value>TextAboveImage</value>
+  <data name="&gt;&gt;EnglishLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Dialog_Load_Image.TrayLocation" type="System.Drawing.Point, System.Drawing">
-    <value>17, 17</value>
+  <data name="&gt;&gt;SerbianLatinLanguage.Name" xml:space="preserve">
+    <value>SerbianLatinLanguage</value>
   </data>
-  <data name="Puzzle_Options.TrayLocation" type="System.Drawing.Point, System.Drawing">
-    <value>335, 20</value>
+  <data name="&gt;&gt;SerbianLatinLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="$this.Localizable" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;SerbianCyrlLanguage.Name" xml:space="preserve">
+    <value>SerbianCyrlLanguage</value>
   </data>
-  <data name="$this.Locked" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;SerbianCyrlLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RussianLanguage.Name" xml:space="preserve">
+    <value>RussianLanguage</value>
+  </data>
+  <data name="&gt;&gt;RussianLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FrenchLanguage.Name" xml:space="preserve">
+    <value>FrenchLanguage</value>
+  </data>
+  <data name="&gt;&gt;FrenchLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SpanishLanguage.Name" xml:space="preserve">
+    <value>SpanishLanguage</value>
+  </data>
+  <data name="&gt;&gt;SpanishLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Separator1.Name" xml:space="preserve">
+    <value>Separator1</value>
+  </data>
+  <data name="&gt;&gt;Separator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SliderPuzzle.Name" xml:space="preserve">
+    <value>SliderPuzzle</value>
+  </data>
+  <data name="&gt;&gt;SliderPuzzle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JigsawPuzzle.Name" xml:space="preserve">
+    <value>JigsawPuzzle</value>
+  </data>
+  <data name="&gt;&gt;JigsawPuzzle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Separator2.Name" xml:space="preserve">
+    <value>Separator2</value>
+  </data>
+  <data name="&gt;&gt;Separator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PreviousImage.Name" xml:space="preserve">
+    <value>PreviousImage</value>
+  </data>
+  <data name="&gt;&gt;PreviousImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NextImage.Name" xml:space="preserve">
+    <value>NextImage</value>
+  </data>
+  <data name="&gt;&gt;NextImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LoadImage.Name" xml:space="preserve">
+    <value>LoadImage</value>
+  </data>
+  <data name="&gt;&gt;LoadImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Separator3.Name" xml:space="preserve">
+    <value>Separator3</value>
+  </data>
+  <data name="&gt;&gt;Separator3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NewPuzzle.Name" xml:space="preserve">
+    <value>NewPuzzle</value>
+  </data>
+  <data name="&gt;&gt;NewPuzzle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Separator4.Name" xml:space="preserve">
+    <value>Separator4</value>
+  </data>
+  <data name="&gt;&gt;Separator4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PuzzleHelp.Name" xml:space="preserve">
+    <value>PuzzleHelp</value>
+  </data>
+  <data name="&gt;&gt;PuzzleHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Separator5.Name" xml:space="preserve">
+    <value>Separator5</value>
+  </data>
+  <data name="&gt;&gt;Separator5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PuzzleSolution.Name" xml:space="preserve">
+    <value>PuzzleSolution</value>
+  </data>
+  <data name="&gt;&gt;PuzzleSolution.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Separator6.Name" xml:space="preserve">
+    <value>Separator6</value>
+  </data>
+  <data name="&gt;&gt;Separator6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RandomBlankTileIndex.Name" xml:space="preserve">
+    <value>RandomBlankTileIndex</value>
+  </data>
+  <data name="&gt;&gt;RandomBlankTileIndex.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Separator7.Name" xml:space="preserve">
+    <value>Separator7</value>
+  </data>
+  <data name="&gt;&gt;Separator7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CloseMenu.Name" xml:space="preserve">
+    <value>CloseMenu</value>
+  </data>
+  <data name="&gt;&gt;CloseMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Dialog_Load_Image.Name" xml:space="preserve">
+    <value>Dialog_Load_Image</value>
+  </data>
+  <data name="&gt;&gt;Dialog_Load_Image.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="PuzzleIsSolved" xml:space="preserve">
-    <value>   Puzzle is solved.       </value>
+    <value>   Puzzle is solved.      </value>
   </data>
   <data name="MainWindowTitleSlider" xml:space="preserve">
     <value>   Slider Puzzle</value>
@@ -4005,7 +4041,7 @@
     <value>   Excellent !!!</value>
   </data>
   <data name="MainWindowTitleJigsaw" xml:space="preserve">
-    <value>   Jigsaw puzzle</value>
+    <value>   Jigsaw Puzzle</value>
   </data>
   <data name="NewMixText" xml:space="preserve">
     <value>   New mix</value>
@@ -4015,17 +4051,5 @@
   </data>
   <data name="CantLoadImageMessageTitle" xml:space="preserve">
     <value>Error Loading Image</value>
-  </data>
-  <data name="RussianLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="RussianLanguage.Text" xml:space="preserve">
-    <value>   Russian</value>
-  </data>
-  <data name="&gt;&gt;RussianLanguage.Name" xml:space="preserve">
-    <value>RussianLanguage</value>
-  </data>
-  <data name="&gt;&gt;RussianLanguage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

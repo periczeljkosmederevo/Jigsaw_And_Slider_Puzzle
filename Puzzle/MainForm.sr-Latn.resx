@@ -126,6 +126,15 @@
   <data name="SerbianCyrlLanguage.Text" xml:space="preserve">
     <value>   Srpski Ćirilica</value>
   </data>
+  <data name="RussianLanguage.Text" xml:space="preserve">
+    <value>   Ruski</value>
+  </data>
+  <data name="FrenchLanguage.Text" xml:space="preserve">
+    <value>   Francuski</value>
+  </data>
+  <data name="SpanishLanguage.Text" xml:space="preserve">
+    <value>   Španski</value>
+  </data>
   <data name="MenuTitle.Text" xml:space="preserve">
     <value>   Opcije - Jezici</value>
   </data>
