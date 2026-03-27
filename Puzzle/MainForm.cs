@@ -1098,7 +1098,7 @@ namespace Puzzle
 
                     Initialize_Tiles();
                 }
-                catch (Exception ex)
+                catch
                 {
                     MessageBox.Show(Translations.GetString("CantLoadImageMessage"),
                                     Translations.GetString("CantLoadImageMessageTitle"),
