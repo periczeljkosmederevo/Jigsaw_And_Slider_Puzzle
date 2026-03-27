@@ -424,43 +424,43 @@
     <value>180, 22</value>
   </data>
   <data name="EnglishLanguage.Text" xml:space="preserve">
-    <value>   English</value>
+    <value>   Tiếng Anh</value>
   </data>
   <data name="SerbianLatinLanguage.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
   <data name="SerbianLatinLanguage.Text" xml:space="preserve">
-    <value>   Serbian Latin</value>
+    <value>   Tiếng Serbia (Latinh)</value>
   </data>
   <data name="SerbianCyrlLanguage.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
   <data name="SerbianCyrlLanguage.Text" xml:space="preserve">
-    <value>   Serbian Cyrl</value>
+    <value>   Tiếng Serbia (Cyrillic)</value>
   </data>
   <data name="RussianLanguage.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
   <data name="RussianLanguage.Text" xml:space="preserve">
-    <value>   Russian</value>
+    <value>   Tiếng Nga</value>
   </data>
   <data name="FrenchLanguage.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
   <data name="FrenchLanguage.Text" xml:space="preserve">
-    <value>   French</value>
+    <value>   Tiếng Pháp</value>
   </data>
   <data name="SpanishLanguage.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
   <data name="SpanishLanguage.Text" xml:space="preserve">
-    <value>   Spanish</value>
+    <value>   Tiếng Tây Ban Nha</value>
   </data>
   <data name="MenuTitle.Size" type="System.Drawing.Size, System.Drawing">
     <value>251, 22</value>
   </data>
   <data name="MenuTitle.Text" xml:space="preserve">
-    <value>   Menu options - Languages</value>
+    <value>   Tùy chọn menu - Ngôn ngữ</value>
   </data>
   <data name="Separator1.Size" type="System.Drawing.Size, System.Drawing">
     <value>248, 6</value>
@@ -469,13 +469,13 @@
     <value>251, 22</value>
   </data>
   <data name="SliderPuzzle.Text" xml:space="preserve">
-    <value>   Slider puzzle</value>
+    <value>   Trò chơi xếp hình trượt</value>
   </data>
   <data name="JigsawPuzzle.Size" type="System.Drawing.Size, System.Drawing">
     <value>251, 22</value>
   </data>
   <data name="JigsawPuzzle.Text" xml:space="preserve">
-    <value>   Jigsaw puzzle</value>
+    <value>   Trò chơi ghép hình Jigsaw</value>
   </data>
   <data name="Separator2.Size" type="System.Drawing.Size, System.Drawing">
     <value>248, 6</value>
@@ -484,19 +484,19 @@
     <value>251, 22</value>
   </data>
   <data name="PreviousImage.Text" xml:space="preserve">
-    <value>   Previous image</value>
+    <value>   Ảnh trước đó</value>
   </data>
   <data name="NextImage.Size" type="System.Drawing.Size, System.Drawing">
     <value>251, 22</value>
   </data>
   <data name="NextImage.Text" xml:space="preserve">
-    <value>   Next image</value>
+    <value>   Ảnh tiếp theo</value>
   </data>
   <data name="LoadImage.Size" type="System.Drawing.Size, System.Drawing">
     <value>251, 22</value>
   </data>
   <data name="LoadImage.Text" xml:space="preserve">
-    <value>   Load image from file</value>
+    <value>   Tải ảnh từ tệp</value>
   </data>
   <data name="Separator3.Size" type="System.Drawing.Size, System.Drawing">
     <value>248, 6</value>
@@ -505,7 +505,7 @@
     <value>251, 22</value>
   </data>
   <data name="NewPuzzle.Text" xml:space="preserve">
-    <value>   New puzzle</value>
+    <value>   Câu đố mới</value>
   </data>
   <data name="Separator4.Size" type="System.Drawing.Size, System.Drawing">
     <value>248, 6</value>
@@ -514,7 +514,7 @@
     <value>251, 22</value>
   </data>
   <data name="PuzzleHelp.Text" xml:space="preserve">
-    <value>   Help</value>
+    <value>   Trợ giúp</value>
   </data>
   <data name="Separator5.Size" type="System.Drawing.Size, System.Drawing">
     <value>248, 6</value>
@@ -523,7 +523,7 @@
     <value>251, 22</value>
   </data>
   <data name="PuzzleSolution.Text" xml:space="preserve">
-    <value>   Show solution</value>
+    <value>   Hiển thị lời giải</value>
   </data>
   <data name="Separator6.Size" type="System.Drawing.Size, System.Drawing">
     <value>248, 6</value>
@@ -532,7 +532,7 @@
     <value>251, 22</value>
   </data>
   <data name="RandomBlankTileIndex.Text" xml:space="preserve">
-    <value>   Random position of empty field</value>
+    <value>   Vị trí ngẫu nhiên của ô trống</value>
   </data>
   <data name="RandomBlankTileIndex.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
@@ -544,7 +544,7 @@
     <value>251, 22</value>
   </data>
   <data name="CloseMenu.Text" xml:space="preserve">
-    <value>   Close Menu</value>
+    <value>   Đóng menu</value>
   </data>
   <data name="Puzzle_Options.Size" type="System.Drawing.Size, System.Drawing">
     <value>252, 310</value>
@@ -559,10 +559,10 @@
     <value>17, 17</value>
   </data>
   <data name="Dialog_Load_Image.Filter" xml:space="preserve">
-    <value>Bitmap img|*.bmp|Gif img|*.gif|Png img|*.png|Jpeg img|*.jpg|Tiff img|*.tif|All documents|*.*</value>
+    <value>Ảnh Bitmap|*.bmp|Ảnh Gif|*.gif|Ảnh Png|*.png|Ảnh Jpeg|*.jpg|Ảnh Tiff|*.tif|Tất cả tài liệu|*.*</value>
   </data>
   <data name="Dialog_Load_Image.Title" xml:space="preserve">
-    <value>   Choose image for puzzle</value>
+    <value>   Chọn ảnh cho trò chơi</value>
   </data>
   <data name="Index1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -3873,7 +3873,7 @@
     <value>CenterScreen</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>   Slider Puzzle</value>
+    <value>   Trò chơi xếp hình trượt</value>
   </data>
   <data name="&gt;&gt;MenuTitle.Name" xml:space="preserve">
     <value>MenuTitle</value>
@@ -4032,24 +4032,72 @@
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="PuzzleIsSolved" xml:space="preserve">
-    <value>   Puzzle is solved.      </value>
+    <value>   Câu đố đã được giải xong.      </value>
   </data>
   <data name="MainWindowTitleSlider" xml:space="preserve">
-    <value>   Slider Puzzle</value>
+    <value>   Trò chơi xếp hình trượt</value>
   </data>
   <data name="Excellent" xml:space="preserve">
-    <value>   Excellent !!!</value>
+    <value>   Tuyệt vời !!!</value>
   </data>
   <data name="MainWindowTitleJigsaw" xml:space="preserve">
-    <value>   Jigsaw Puzzle</value>
+    <value>   Trò chơi ghép hình Jigsaw</value>
   </data>
   <data name="NewMixText" xml:space="preserve">
-    <value>   New mix</value>
+    <value>   Trộn mới</value>
   </data>
   <data name="CantLoadImageMessage" xml:space="preserve">
-    <value>Oops! We couldn't load that image. Please make sure it's a valid photo file (JPG, PNG, BMP).</value>
+    <value>Rất tiếc! Chúng tôi không thể tải ảnh đó. Vui lòng đảm bảo đó là tệp ảnh hợp lệ (JPG, PNG, BMP).</value>
   </data>
   <data name="CantLoadImageMessageTitle" xml:space="preserve">
-    <value>Error Loading Image</value>
+    <value>Lỗi khi tải hình ảnh</value>
+  </data>
+  <data name="VietnameseLanguage.Text" xml:space="preserve">
+    <value>   Tiếng Việt</value>
+  </data>
+  <data name="TurkishLanguage.Text" xml:space="preserve">
+    <value>   Tiếng Thổ Nhĩ Kỳ</value>
+  </data>
+  <data name="SwahiliLanguage.Text" xml:space="preserve">
+    <value>   Tiếng Swahili</value>
+  </data>
+  <data name="PortugueseLanguage.Text" xml:space="preserve">
+    <value>   Tiếng Bồ Đào Nha</value>
+  </data>
+  <data name="PolishLanguage.Text" xml:space="preserve">
+    <value>   Tiếng Ba Lan</value>
+  </data>
+  <data name="KoreanLanguage.Text" xml:space="preserve">
+    <value>   Tiếng Hàn</value>
+  </data>
+  <data name="JapaneseLanguage.Text" xml:space="preserve">
+    <value>   Tiếng Nhật</value>
+  </data>
+  <data name="ItalianLanguage.Text" xml:space="preserve">
+    <value>   Tiếng Ý</value>
+  </data>
+  <data name="IndonesianLanguage.Text" xml:space="preserve">
+    <value>   Tiếng Indonesia</value>
+  </data>
+  <data name="HindiLanguage.Text" xml:space="preserve">
+    <value>   Tiếng Hindi</value>
+  </data>
+  <data name="GreekLanguage.Text" xml:space="preserve">
+    <value>   Tiếng Hy Lạp</value>
+  </data>
+  <data name="GermanLanguage.Text" xml:space="preserve">
+    <value>   Tiếng Đức</value>
+  </data>
+  <data name="DutchLanguage.Text" xml:space="preserve">
+    <value>   Tiếng Hà Lan</value>
+  </data>
+  <data name="ChineseLanguage.Text" xml:space="preserve">
+    <value>   Tiếng Trung (Giản thể)</value>
+  </data>
+  <data name="BengaliLanguage.Text" xml:space="preserve">
+    <value>   Tiếng Bengali</value>
+  </data>
+  <data name="ArabicLanguage.Text" xml:space="preserve">
+    <value>   Tiếng Ả Rập</value>
   </data>
 </root>

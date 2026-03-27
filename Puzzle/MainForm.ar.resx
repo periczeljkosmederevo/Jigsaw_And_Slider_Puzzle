@@ -424,43 +424,43 @@
     <value>180, 22</value>
   </data>
   <data name="EnglishLanguage.Text" xml:space="preserve">
-    <value>   English</value>
+    <value>   الإنجليزية</value>
   </data>
   <data name="SerbianLatinLanguage.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
   <data name="SerbianLatinLanguage.Text" xml:space="preserve">
-    <value>   Serbian Latin</value>
+    <value>   الصربية (لاتينية)</value>
   </data>
   <data name="SerbianCyrlLanguage.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
   <data name="SerbianCyrlLanguage.Text" xml:space="preserve">
-    <value>   Serbian Cyrl</value>
+    <value>   الصربية (كيريلية)</value>
   </data>
   <data name="RussianLanguage.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
   <data name="RussianLanguage.Text" xml:space="preserve">
-    <value>   Russian</value>
+    <value>   الروسية</value>
   </data>
   <data name="FrenchLanguage.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
   <data name="FrenchLanguage.Text" xml:space="preserve">
-    <value>   French</value>
+    <value>   الفرنسية</value>
   </data>
   <data name="SpanishLanguage.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
   <data name="SpanishLanguage.Text" xml:space="preserve">
-    <value>   Spanish</value>
+    <value>   الإسبانية</value>
   </data>
   <data name="MenuTitle.Size" type="System.Drawing.Size, System.Drawing">
     <value>251, 22</value>
   </data>
   <data name="MenuTitle.Text" xml:space="preserve">
-    <value>   Menu options - Languages</value>
+    <value>   خيارات القائمة - اللغات</value>
   </data>
   <data name="Separator1.Size" type="System.Drawing.Size, System.Drawing">
     <value>248, 6</value>
@@ -469,13 +469,13 @@
     <value>251, 22</value>
   </data>
   <data name="SliderPuzzle.Text" xml:space="preserve">
-    <value>   Slider puzzle</value>
+    <value>   لغز المنزلق</value>
   </data>
   <data name="JigsawPuzzle.Size" type="System.Drawing.Size, System.Drawing">
     <value>251, 22</value>
   </data>
   <data name="JigsawPuzzle.Text" xml:space="preserve">
-    <value>   Jigsaw puzzle</value>
+    <value>   أحجية الصور المقطوعة</value>
   </data>
   <data name="Separator2.Size" type="System.Drawing.Size, System.Drawing">
     <value>248, 6</value>
@@ -484,19 +484,19 @@
     <value>251, 22</value>
   </data>
   <data name="PreviousImage.Text" xml:space="preserve">
-    <value>   Previous image</value>
+    <value>   الصورة السابقة</value>
   </data>
   <data name="NextImage.Size" type="System.Drawing.Size, System.Drawing">
     <value>251, 22</value>
   </data>
   <data name="NextImage.Text" xml:space="preserve">
-    <value>   Next image</value>
+    <value>   الصورة التالية</value>
   </data>
   <data name="LoadImage.Size" type="System.Drawing.Size, System.Drawing">
     <value>251, 22</value>
   </data>
   <data name="LoadImage.Text" xml:space="preserve">
-    <value>   Load image from file</value>
+    <value>   تحميل صورة من ملف</value>
   </data>
   <data name="Separator3.Size" type="System.Drawing.Size, System.Drawing">
     <value>248, 6</value>
@@ -505,7 +505,7 @@
     <value>251, 22</value>
   </data>
   <data name="NewPuzzle.Text" xml:space="preserve">
-    <value>   New puzzle</value>
+    <value>   لغز جديد</value>
   </data>
   <data name="Separator4.Size" type="System.Drawing.Size, System.Drawing">
     <value>248, 6</value>
@@ -514,7 +514,7 @@
     <value>251, 22</value>
   </data>
   <data name="PuzzleHelp.Text" xml:space="preserve">
-    <value>   Help</value>
+    <value>   مساعدة</value>
   </data>
   <data name="Separator5.Size" type="System.Drawing.Size, System.Drawing">
     <value>248, 6</value>
@@ -523,7 +523,7 @@
     <value>251, 22</value>
   </data>
   <data name="PuzzleSolution.Text" xml:space="preserve">
-    <value>   Show solution</value>
+    <value>   عرض الحل</value>
   </data>
   <data name="Separator6.Size" type="System.Drawing.Size, System.Drawing">
     <value>248, 6</value>
@@ -532,7 +532,7 @@
     <value>251, 22</value>
   </data>
   <data name="RandomBlankTileIndex.Text" xml:space="preserve">
-    <value>   Random position of empty field</value>
+    <value>   موقع عشوائي للحقل الفارغ</value>
   </data>
   <data name="RandomBlankTileIndex.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
@@ -544,7 +544,7 @@
     <value>251, 22</value>
   </data>
   <data name="CloseMenu.Text" xml:space="preserve">
-    <value>   Close Menu</value>
+    <value>   إغلاق القائمة</value>
   </data>
   <data name="Puzzle_Options.Size" type="System.Drawing.Size, System.Drawing">
     <value>252, 310</value>
@@ -559,10 +559,10 @@
     <value>17, 17</value>
   </data>
   <data name="Dialog_Load_Image.Filter" xml:space="preserve">
-    <value>Bitmap img|*.bmp|Gif img|*.gif|Png img|*.png|Jpeg img|*.jpg|Tiff img|*.tif|All documents|*.*</value>
+    <value>ملفات Bitmap|*.bmp|ملفات Gif|*.gif|ملفات Png|*.png|ملفات Jpeg|*.jpg|ملفات Tiff|*.tif|كل الملفات|*.*</value>
   </data>
   <data name="Dialog_Load_Image.Title" xml:space="preserve">
-    <value>   Choose image for puzzle</value>
+    <value>   اختر صورة للغز</value>
   </data>
   <data name="Index1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -583,7 +583,7 @@
     <value>9</value>
   </data>
   <data name="Index1.Text" xml:space="preserve">
-    <value>1</value>
+    <value>١</value>
   </data>
   <data name="Index1.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
     <value>TextAboveImage</value>
@@ -622,7 +622,7 @@
     <value>10</value>
   </data>
   <data name="Index2.Text" xml:space="preserve">
-    <value>2</value>
+    <value>٢</value>
   </data>
   <data name="Index2.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
     <value>TextAboveImage</value>
@@ -661,7 +661,7 @@
     <value>11</value>
   </data>
   <data name="Index3.Text" xml:space="preserve">
-    <value>3</value>
+    <value>٣</value>
   </data>
   <data name="Index3.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
     <value>TextAboveImage</value>
@@ -700,7 +700,7 @@
     <value>12</value>
   </data>
   <data name="Index4.Text" xml:space="preserve">
-    <value>4</value>
+    <value>٤</value>
   </data>
   <data name="Index4.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
     <value>TextAboveImage</value>
@@ -739,7 +739,7 @@
     <value>13</value>
   </data>
   <data name="Index5.Text" xml:space="preserve">
-    <value>5</value>
+    <value>٥</value>
   </data>
   <data name="Index5.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
     <value>TextAboveImage</value>
@@ -778,7 +778,7 @@
     <value>14</value>
   </data>
   <data name="Index6.Text" xml:space="preserve">
-    <value>6</value>
+    <value>٦</value>
   </data>
   <data name="Index6.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
     <value>TextAboveImage</value>
@@ -817,7 +817,7 @@
     <value>15</value>
   </data>
   <data name="Index7.Text" xml:space="preserve">
-    <value>7</value>
+    <value>٧</value>
   </data>
   <data name="Index7.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
     <value>TextAboveImage</value>
@@ -856,7 +856,7 @@
     <value>16</value>
   </data>
   <data name="Index8.Text" xml:space="preserve">
-    <value>8</value>
+    <value>٨</value>
   </data>
   <data name="Index8.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
     <value>TextAboveImage</value>
@@ -895,7 +895,7 @@
     <value>17</value>
   </data>
   <data name="Index9.Text" xml:space="preserve">
-    <value>9</value>
+    <value>٩</value>
   </data>
   <data name="Index9.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
     <value>TextAboveImage</value>
@@ -3873,7 +3873,7 @@
     <value>CenterScreen</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>   Slider Puzzle</value>
+    <value>   لغز المنزلق</value>
   </data>
   <data name="&gt;&gt;MenuTitle.Name" xml:space="preserve">
     <value>MenuTitle</value>
@@ -4032,24 +4032,72 @@
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="PuzzleIsSolved" xml:space="preserve">
-    <value>   Puzzle is solved.      </value>
+    <value>   تم حل اللغز.      </value>
   </data>
   <data name="MainWindowTitleSlider" xml:space="preserve">
-    <value>   Slider Puzzle</value>
+    <value>   لغز المنزلق</value>
   </data>
   <data name="Excellent" xml:space="preserve">
-    <value>   Excellent !!!</value>
+    <value>   ممتاز !!!</value>
   </data>
   <data name="MainWindowTitleJigsaw" xml:space="preserve">
-    <value>   Jigsaw Puzzle</value>
+    <value>   أحجية الصور المقطوعة</value>
   </data>
   <data name="NewMixText" xml:space="preserve">
-    <value>   New mix</value>
+    <value>   مزيج جديد</value>
   </data>
   <data name="CantLoadImageMessage" xml:space="preserve">
-    <value>Oops! We couldn't load that image. Please make sure it's a valid photo file (JPG, PNG, BMP).</value>
+    <value>عذراً! لم نتمكن من تحميل تلك الصورة. يرجى التأكد من أنها ملف صورة صالح (JPG, PNG, BMP).</value>
   </data>
   <data name="CantLoadImageMessageTitle" xml:space="preserve">
-    <value>Error Loading Image</value>
+    <value>خطأ في تحميل الصورة</value>
+  </data>
+  <data name="VietnameseLanguage.Text" xml:space="preserve">
+    <value>   الفيتنامية</value>
+  </data>
+  <data name="TurkishLanguage.Text" xml:space="preserve">
+    <value>   التركية</value>
+  </data>
+  <data name="SwahiliLanguage.Text" xml:space="preserve">
+    <value>   السواحيلية</value>
+  </data>
+  <data name="PortugueseLanguage.Text" xml:space="preserve">
+    <value>   البرتغالية</value>
+  </data>
+  <data name="PolishLanguage.Text" xml:space="preserve">
+    <value>   البولندية</value>
+  </data>
+  <data name="KoreanLanguage.Text" xml:space="preserve">
+    <value>   الكورية</value>
+  </data>
+  <data name="JapaneseLanguage.Text" xml:space="preserve">
+    <value>   اليابانية</value>
+  </data>
+  <data name="ItalianLanguage.Text" xml:space="preserve">
+    <value>   الإيطالية</value>
+  </data>
+  <data name="IndonesianLanguage.Text" xml:space="preserve">
+    <value>   الإندونيسية</value>
+  </data>
+  <data name="HindiLanguage.Text" xml:space="preserve">
+    <value>   الهندية</value>
+  </data>
+  <data name="GreekLanguage.Text" xml:space="preserve">
+    <value>   اليونانية</value>
+  </data>
+  <data name="GermanLanguage.Text" xml:space="preserve">
+    <value>   الألمانية</value>
+  </data>
+  <data name="DutchLanguage.Text" xml:space="preserve">
+    <value>   الهولندية</value>
+  </data>
+  <data name="ChineseLanguage.Text" xml:space="preserve">
+    <value>   الصينية</value>
+  </data>
+  <data name="BengaliLanguage.Text" xml:space="preserve">
+    <value>   البنغالية</value>
+  </data>
+  <data name="ArabicLanguage.Text" xml:space="preserve">
+    <value>   العربية</value>
   </data>
 </root>

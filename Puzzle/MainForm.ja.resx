@@ -424,43 +424,43 @@
     <value>180, 22</value>
   </data>
   <data name="EnglishLanguage.Text" xml:space="preserve">
-    <value>   English</value>
+    <value>   英語</value>
   </data>
   <data name="SerbianLatinLanguage.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
   <data name="SerbianLatinLanguage.Text" xml:space="preserve">
-    <value>   Serbian Latin</value>
+    <value>   セルビア語 (ラテン文字)</value>
   </data>
   <data name="SerbianCyrlLanguage.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
   <data name="SerbianCyrlLanguage.Text" xml:space="preserve">
-    <value>   Serbian Cyrl</value>
+    <value>   セルビア語 (キリル文字)</value>
   </data>
   <data name="RussianLanguage.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
   <data name="RussianLanguage.Text" xml:space="preserve">
-    <value>   Russian</value>
+    <value>   ロシア語</value>
   </data>
   <data name="FrenchLanguage.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
   <data name="FrenchLanguage.Text" xml:space="preserve">
-    <value>   French</value>
+    <value>   フランス語</value>
   </data>
   <data name="SpanishLanguage.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
   <data name="SpanishLanguage.Text" xml:space="preserve">
-    <value>   Spanish</value>
+    <value>   スペイン語</value>
   </data>
   <data name="MenuTitle.Size" type="System.Drawing.Size, System.Drawing">
     <value>251, 22</value>
   </data>
   <data name="MenuTitle.Text" xml:space="preserve">
-    <value>   Menu options - Languages</value>
+    <value>   メニューオプション - 言語</value>
   </data>
   <data name="Separator1.Size" type="System.Drawing.Size, System.Drawing">
     <value>248, 6</value>
@@ -469,13 +469,13 @@
     <value>251, 22</value>
   </data>
   <data name="SliderPuzzle.Text" xml:space="preserve">
-    <value>   Slider puzzle</value>
+    <value>   スライディングパズル</value>
   </data>
   <data name="JigsawPuzzle.Size" type="System.Drawing.Size, System.Drawing">
     <value>251, 22</value>
   </data>
   <data name="JigsawPuzzle.Text" xml:space="preserve">
-    <value>   Jigsaw puzzle</value>
+    <value>   ジグソーパズル</value>
   </data>
   <data name="Separator2.Size" type="System.Drawing.Size, System.Drawing">
     <value>248, 6</value>
@@ -484,19 +484,19 @@
     <value>251, 22</value>
   </data>
   <data name="PreviousImage.Text" xml:space="preserve">
-    <value>   Previous image</value>
+    <value>   前の画像</value>
   </data>
   <data name="NextImage.Size" type="System.Drawing.Size, System.Drawing">
     <value>251, 22</value>
   </data>
   <data name="NextImage.Text" xml:space="preserve">
-    <value>   Next image</value>
+    <value>   次の画像</value>
   </data>
   <data name="LoadImage.Size" type="System.Drawing.Size, System.Drawing">
     <value>251, 22</value>
   </data>
   <data name="LoadImage.Text" xml:space="preserve">
-    <value>   Load image from file</value>
+    <value>   ファイルから画像を読み込む</value>
   </data>
   <data name="Separator3.Size" type="System.Drawing.Size, System.Drawing">
     <value>248, 6</value>
@@ -505,7 +505,7 @@
     <value>251, 22</value>
   </data>
   <data name="NewPuzzle.Text" xml:space="preserve">
-    <value>   New puzzle</value>
+    <value>   新しいパズル</value>
   </data>
   <data name="Separator4.Size" type="System.Drawing.Size, System.Drawing">
     <value>248, 6</value>
@@ -514,7 +514,7 @@
     <value>251, 22</value>
   </data>
   <data name="PuzzleHelp.Text" xml:space="preserve">
-    <value>   Help</value>
+    <value>   ヘルプ</value>
   </data>
   <data name="Separator5.Size" type="System.Drawing.Size, System.Drawing">
     <value>248, 6</value>
@@ -523,7 +523,7 @@
     <value>251, 22</value>
   </data>
   <data name="PuzzleSolution.Text" xml:space="preserve">
-    <value>   Show solution</value>
+    <value>   答えを表示</value>
   </data>
   <data name="Separator6.Size" type="System.Drawing.Size, System.Drawing">
     <value>248, 6</value>
@@ -532,7 +532,7 @@
     <value>251, 22</value>
   </data>
   <data name="RandomBlankTileIndex.Text" xml:space="preserve">
-    <value>   Random position of empty field</value>
+    <value>   空白マスのランダム配置</value>
   </data>
   <data name="RandomBlankTileIndex.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
@@ -544,7 +544,7 @@
     <value>251, 22</value>
   </data>
   <data name="CloseMenu.Text" xml:space="preserve">
-    <value>   Close Menu</value>
+    <value>   メニューを閉じる</value>
   </data>
   <data name="Puzzle_Options.Size" type="System.Drawing.Size, System.Drawing">
     <value>252, 310</value>
@@ -559,10 +559,10 @@
     <value>17, 17</value>
   </data>
   <data name="Dialog_Load_Image.Filter" xml:space="preserve">
-    <value>Bitmap img|*.bmp|Gif img|*.gif|Png img|*.png|Jpeg img|*.jpg|Tiff img|*.tif|All documents|*.*</value>
+    <value>ビットマップ画像|*.bmp|Gif画像|*.gif|Png画像|*.png|Jpeg画像|*.jpg|Tiff画像|*.tif|すべてのファイル|*.*</value>
   </data>
   <data name="Dialog_Load_Image.Title" xml:space="preserve">
-    <value>   Choose image for puzzle</value>
+    <value>   パズル用の画像を選択</value>
   </data>
   <data name="Index1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -3873,7 +3873,7 @@
     <value>CenterScreen</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>   Slider Puzzle</value>
+    <value>   スライディングパズル</value>
   </data>
   <data name="&gt;&gt;MenuTitle.Name" xml:space="preserve">
     <value>MenuTitle</value>
@@ -4032,24 +4032,72 @@
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="PuzzleIsSolved" xml:space="preserve">
-    <value>   Puzzle is solved.      </value>
+    <value>   パズルが解けました。      </value>
   </data>
   <data name="MainWindowTitleSlider" xml:space="preserve">
-    <value>   Slider Puzzle</value>
+    <value>   スライディングパズル</value>
   </data>
   <data name="Excellent" xml:space="preserve">
-    <value>   Excellent !!!</value>
+    <value>   素晴らしい !!!</value>
   </data>
   <data name="MainWindowTitleJigsaw" xml:space="preserve">
-    <value>   Jigsaw Puzzle</value>
+    <value>   ジグソーパズル</value>
   </data>
   <data name="NewMixText" xml:space="preserve">
-    <value>   New mix</value>
+    <value>   新しいシャッフル</value>
   </data>
   <data name="CantLoadImageMessage" xml:space="preserve">
-    <value>Oops! We couldn't load that image. Please make sure it's a valid photo file (JPG, PNG, BMP).</value>
+    <value>おっと！画像を読み込めませんでした。有効な写真ファイル（JPG、PNG、BMP）であることを確認してください。</value>
   </data>
   <data name="CantLoadImageMessageTitle" xml:space="preserve">
-    <value>Error Loading Image</value>
+    <value>画像の読み込みエラー</value>
+  </data>
+  <data name="VietnameseLanguage.Text" xml:space="preserve">
+    <value>   ベトナム語</value>
+  </data>
+  <data name="TurkishLanguage.Text" xml:space="preserve">
+    <value>   トルコ語</value>
+  </data>
+  <data name="SwahiliLanguage.Text" xml:space="preserve">
+    <value>   スワヒリ語</value>
+  </data>
+  <data name="PortugueseLanguage.Text" xml:space="preserve">
+    <value>   ポルトガル語</value>
+  </data>
+  <data name="PolishLanguage.Text" xml:space="preserve">
+    <value>   ポーランド語</value>
+  </data>
+  <data name="KoreanLanguage.Text" xml:space="preserve">
+    <value>   韓国語</value>
+  </data>
+  <data name="JapaneseLanguage.Text" xml:space="preserve">
+    <value>   日本語</value>
+  </data>
+  <data name="ItalianLanguage.Text" xml:space="preserve">
+    <value>   イタリア語</value>
+  </data>
+  <data name="IndonesianLanguage.Text" xml:space="preserve">
+    <value>   インドネシア語</value>
+  </data>
+  <data name="HindiLanguage.Text" xml:space="preserve">
+    <value>   ヒンディー語</value>
+  </data>
+  <data name="GreekLanguage.Text" xml:space="preserve">
+    <value>   ギリシャ語</value>
+  </data>
+  <data name="GermanLanguage.Text" xml:space="preserve">
+    <value>   ドイツ語</value>
+  </data>
+  <data name="DutchLanguage.Text" xml:space="preserve">
+    <value>   オランダ語</value>
+  </data>
+  <data name="ChineseLanguage.Text" xml:space="preserve">
+    <value>   中国語 (簡体字)</value>
+  </data>
+  <data name="BengaliLanguage.Text" xml:space="preserve">
+    <value>   ベンガル語</value>
+  </data>
+  <data name="ArabicLanguage.Text" xml:space="preserve">
+    <value>   アラビア語</value>
   </data>
 </root>

@@ -3201,10 +3201,82 @@
   <data name="CantLoadImageMessageTitle" xml:space="preserve">
     <value>Грешка при учитавању слике</value>
   </data>
-  <data name="serbianCirylToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>184, 22</value>
+  <data name="Dialog_Load_Image.Filter" xml:space="preserve">
+    <value>Bitmap img|*.bmp|Gif img|*.gif|Png img|*.png|Jpeg img|*.jpg|Tiff img|*.tif|All documents|*.*</value>
   </data>
-  <data name="serbianCirylToolStripMenuItem.Text" xml:space="preserve">
-    <value>   Serbian Ciryl</value>
+  <data name="VietnameseLanguage.Text" xml:space="preserve">
+    <value>   Вијетнамски</value>
+  </data>
+  <data name="TurkishLanguage.Text" xml:space="preserve">
+    <value>   Турски</value>
+  </data>
+  <data name="SwahiliLanguage.Text" xml:space="preserve">
+    <value>   Свахили</value>
+  </data>
+  <data name="PortugueseLanguage.Text" xml:space="preserve">
+    <value>   Португалски</value>
+  </data>
+  <data name="PolishLanguage.Text" xml:space="preserve">
+    <value>   Пољски</value>
+  </data>
+  <data name="KoreanLanguage.Text" xml:space="preserve">
+    <value>   Корејски</value>
+  </data>
+  <data name="JapaneseLanguage.Text" xml:space="preserve">
+    <value>   Јапански</value>
+  </data>
+  <data name="ItalianLanguage.Text" xml:space="preserve">
+    <value>   Италијански</value>
+  </data>
+  <data name="IndonesianLanguage.Text" xml:space="preserve">
+    <value>   Индонежански</value>
+  </data>
+  <data name="HindiLanguage.Text" xml:space="preserve">
+    <value>   Хинди</value>
+  </data>
+  <data name="GreekLanguage.Text" xml:space="preserve">
+    <value>   Грчки</value>
+  </data>
+  <data name="GermanLanguage.Text" xml:space="preserve">
+    <value>   Немачки</value>
+  </data>
+  <data name="DutchLanguage.Text" xml:space="preserve">
+    <value>   Холандски</value>
+  </data>
+  <data name="ChineseLanguage.Text" xml:space="preserve">
+    <value>   Кинески (поједностављени)</value>
+  </data>
+  <data name="BengaliLanguage.Text" xml:space="preserve">
+    <value>   Бенгалски</value>
+  </data>
+  <data name="ArabicLanguage.Text" xml:space="preserve">
+    <value>   Арапски</value>
+  </data>
+  <data name="Index9.Text" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Index8.Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Index7.Text" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Index6.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Index5.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Index4.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Index3.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Index2.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Index1.Text" xml:space="preserve">
+    <value>1</value>
   </data>
 </root>

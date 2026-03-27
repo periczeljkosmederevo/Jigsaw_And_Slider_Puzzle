@@ -3138,4 +3138,82 @@
   <data name="CantLoadImageMessageTitle" xml:space="preserve">
     <value>Ошибка загрузки изображения</value>
   </data>
+  <data name="Dialog_Load_Image.Filter" xml:space="preserve">
+    <value>Bitmap img|*.bmp|Gif img|*.gif|Png img|*.png|Jpeg img|*.jpg|Tiff img|*.tif|All documents|*.*</value>
+  </data>
+  <data name="VietnameseLanguage.Text" xml:space="preserve">
+    <value>   Вьетнамский</value>
+  </data>
+  <data name="TurkishLanguage.Text" xml:space="preserve">
+    <value>   Турецкий</value>
+  </data>
+  <data name="SwahiliLanguage.Text" xml:space="preserve">
+    <value>   Суахили</value>
+  </data>
+  <data name="PortugueseLanguage.Text" xml:space="preserve">
+    <value>   Португальский</value>
+  </data>
+  <data name="PolishLanguage.Text" xml:space="preserve">
+    <value>   Польский</value>
+  </data>
+  <data name="KoreanLanguage.Text" xml:space="preserve">
+    <value>   Корейский</value>
+  </data>
+  <data name="JapaneseLanguage.Text" xml:space="preserve">
+    <value>   Японский</value>
+  </data>
+  <data name="ItalianLanguage.Text" xml:space="preserve">
+    <value>   Итальянский</value>
+  </data>
+  <data name="IndonesianLanguage.Text" xml:space="preserve">
+    <value>   Индонезийский</value>
+  </data>
+  <data name="HindiLanguage.Text" xml:space="preserve">
+    <value>   Хинди</value>
+  </data>
+  <data name="GreekLanguage.Text" xml:space="preserve">
+    <value>   Греческий</value>
+  </data>
+  <data name="GermanLanguage.Text" xml:space="preserve">
+    <value>   Немецкий</value>
+  </data>
+  <data name="DutchLanguage.Text" xml:space="preserve">
+    <value>   Голландский</value>
+  </data>
+  <data name="ChineseLanguage.Text" xml:space="preserve">
+    <value>   Китайский (упрощенный)</value>
+  </data>
+  <data name="BengaliLanguage.Text" xml:space="preserve">
+    <value>   Бенгальский</value>
+  </data>
+  <data name="ArabicLanguage.Text" xml:space="preserve">
+    <value>   Арабский</value>
+  </data>
+  <data name="Index9.Text" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Index8.Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Index7.Text" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Index6.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Index5.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Index4.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Index3.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Index2.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Index1.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
 </root>

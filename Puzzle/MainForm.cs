@@ -371,6 +371,10 @@ namespace Puzzle
 
             Separator5.Visible = IsGameRunning;
             PuzzleHelp.Visible = IsGameRunning;
+            if (!IsGameRunning)
+            {
+                PuzzleHelp.Checked = false;
+            }
 
             if (SliderPuzzle.Checked)
             {
@@ -693,9 +697,6 @@ namespace Puzzle
 
         void Set_Tile_Index_To_Help_Fields()
         {
-            // 
-            // Set current tile index order
-            //
             string Current_Tile_Index_Order = string.Empty;
 
             Current_Tile_Index_Order =
@@ -709,29 +710,37 @@ namespace Puzzle
                 Puzzle_Table[3, 2].ToString() +
                 Puzzle_Table[3, 3].ToString();
 
-            //
-            // Replace blank tile index with selected index of empty field
-            // 
             if (SliderPuzzle.Checked)
             {
-                Current_Tile_Index_Order =
-                    Current_Tile_Index_Order.Replace("0", Blank_Tile_Index.ToString());
+                Current_Tile_Index_Order = Current_Tile_Index_Order.Replace("0", Blank_Tile_Index.ToString());
             }
 
-            //
-            // Set current tile index to help field
-            //
-            Index1.Text = Current_Tile_Index_Order.Substring(0, 1);
-            Index2.Text = Current_Tile_Index_Order.Substring(1, 1);
-            Index3.Text = Current_Tile_Index_Order.Substring(2, 1);
-            Index4.Text = Current_Tile_Index_Order.Substring(3, 1);
-            Index5.Text = Current_Tile_Index_Order.Substring(4, 1);
-            Index6.Text = Current_Tile_Index_Order.Substring(5, 1);
-            Index7.Text = Current_Tile_Index_Order.Substring(6, 1);
-            Index8.Text = Current_Tile_Index_Order.Substring(7, 1);
-            Index9.Text = Current_Tile_Index_Order.Substring(8, 1);
+            Index1.Text = GetLocalizedDigit(Current_Tile_Index_Order.Substring(0, 1));
+            Index2.Text = GetLocalizedDigit(Current_Tile_Index_Order.Substring(1, 1));
+            Index3.Text = GetLocalizedDigit(Current_Tile_Index_Order.Substring(2, 1));
+            Index4.Text = GetLocalizedDigit(Current_Tile_Index_Order.Substring(3, 1));
+            Index5.Text = GetLocalizedDigit(Current_Tile_Index_Order.Substring(4, 1));
+            Index6.Text = GetLocalizedDigit(Current_Tile_Index_Order.Substring(5, 1));
+            Index7.Text = GetLocalizedDigit(Current_Tile_Index_Order.Substring(6, 1));
+            Index8.Text = GetLocalizedDigit(Current_Tile_Index_Order.Substring(7, 1));
+            Index9.Text = GetLocalizedDigit(Current_Tile_Index_Order.Substring(8, 1));
 
             Refresh();
+        }
+
+        /// <summary>
+        /// Uzima sirovu cifru (npr. "1") i vraća njen prevod iz ResX (npr. "١")
+        /// </summary>
+        private string GetLocalizedDigit(string digit)
+        {
+            // Ključ u ResX nam je "Index1.Text", "Index2.Text" itd.
+            string resourceKey = $"Index{digit}.Text";
+
+            // Tražimo prevod u Translations (tvoj ComponentResourceManager)
+            string localized = Translations.GetString(resourceKey);
+
+            // Ako nađe prevod vrati ga, ako ne (ili ako je 0), vrati originalnu cifru
+            return localized ?? digit;
         }
 
         void Set_Tiles_To_Table()
@@ -1088,18 +1097,22 @@ namespace Puzzle
 
         void Load_Image(object sender, EventArgs e)
         {
+            Dialog_Load_Image.Filter = Translations.GetString("Dialog_Load_Image.Filter").Trim();
+
+            Dialog_Load_Image.Title = Translations.GetString("Dialog_Load_Image.Title").Trim();
+
             if (Dialog_Load_Image.ShowDialog() == DialogResult.OK)
             {
                 try
                 {
                     Last_External_Path = Dialog_Load_Image.FileName;
-
                     BackgroundImage = new Bitmap(Last_External_Path);
-
                     Initialize_Tiles();
                 }
                 catch
                 {
+                    Last_External_Path = null;
+
                     MessageBox.Show(Translations.GetString("CantLoadImageMessage"),
                                     Translations.GetString("CantLoadImageMessageTitle"),
                                     MessageBoxButtons.OK,
@@ -1221,7 +1234,7 @@ namespace Puzzle
             }
         }
 
-        private void Close_Menu(object sender, EventArgs e)
+        void Close_Menu(object sender, EventArgs e)
         {
             Puzzle_Options.Close();
             Refresh();
@@ -1324,9 +1337,8 @@ namespace Puzzle
         /// <summary>
         /// Detects system language and updates the menu checkmarks accordingly.
         /// </summary>
-        private void ApplyDefaultLanguage()
+        void ApplyDefaultLanguage()
         {
-            // Get the current system UI culture name (e.g., "en-US", "sr-Latn-RS", "sr-Cyrl-RS")
             string sysLang = CultureInfo.CurrentUICulture.Name;
 
             if (sysLang.StartsWith("sr-Cyrl", StringComparison.OrdinalIgnoreCase))
@@ -1335,7 +1347,7 @@ namespace Puzzle
                 ChangeLanguage("sr-Cyrl");
             }
             else if (sysLang.StartsWith("sr-Latn", StringComparison.OrdinalIgnoreCase)
-                        || sysLang.StartsWith("sr-SP", StringComparison.OrdinalIgnoreCase))
+                     || sysLang.StartsWith("sr-SP", StringComparison.OrdinalIgnoreCase))
             {
                 SerbianLatinLanguage.Checked = true;
                 ChangeLanguage("sr-Latn");
@@ -1355,6 +1367,86 @@ namespace Puzzle
                 SpanishLanguage.Checked = true;
                 ChangeLanguage("es");
             }
+            else if (sysLang.StartsWith("ko", StringComparison.OrdinalIgnoreCase))
+            {
+                KoreanLanguage.Checked = true;
+                ChangeLanguage("ko");
+            }
+            else if (sysLang.StartsWith("ja", StringComparison.OrdinalIgnoreCase))
+            {
+                JapaneseLanguage.Checked = true;
+                ChangeLanguage("ja");
+            }
+            else if (sysLang.StartsWith("zh", StringComparison.OrdinalIgnoreCase))
+            {
+                ChineseLanguage.Checked = true;
+                ChangeLanguage("zh-Hans");
+            }
+            else if (sysLang.StartsWith("vi", StringComparison.OrdinalIgnoreCase))
+            {
+                VietnameseLanguage.Checked = true;
+                ChangeLanguage("vi");
+            }
+            else if (sysLang.StartsWith("id", StringComparison.OrdinalIgnoreCase))
+            {
+                IndonesianLanguage.Checked = true;
+                ChangeLanguage("id");
+            }
+            else if (sysLang.StartsWith("bn", StringComparison.OrdinalIgnoreCase))
+            {
+                BengaliLanguage.Checked = true;
+                ChangeLanguage("bn");
+            }
+            else if (sysLang.StartsWith("hi", StringComparison.OrdinalIgnoreCase))
+            {
+                HindiLanguage.Checked = true;
+                ChangeLanguage("hi");
+            }
+            else if (sysLang.StartsWith("ar", StringComparison.OrdinalIgnoreCase))
+            {
+                ArabicLanguage.Checked = true;
+                ChangeLanguage("ar");
+            }
+            else if (sysLang.StartsWith("tr", StringComparison.OrdinalIgnoreCase))
+            {
+                TurkishLanguage.Checked = true;
+                ChangeLanguage("tr");
+            }
+            else if (sysLang.StartsWith("el", StringComparison.OrdinalIgnoreCase))
+            {
+                GreekLanguage.Checked = true;
+                ChangeLanguage("el");
+            }
+            else if (sysLang.StartsWith("pl", StringComparison.OrdinalIgnoreCase))
+            {
+                PolishLanguage.Checked = true;
+                ChangeLanguage("pl");
+            }
+            else if (sysLang.StartsWith("de", StringComparison.OrdinalIgnoreCase))
+            {
+                GermanLanguage.Checked = true;
+                ChangeLanguage("de");
+            }
+            else if (sysLang.StartsWith("it", StringComparison.OrdinalIgnoreCase))
+            {
+                ItalianLanguage.Checked = true;
+                ChangeLanguage("it");
+            }
+            else if (sysLang.StartsWith("nl", StringComparison.OrdinalIgnoreCase))
+            {
+                DutchLanguage.Checked = true;
+                ChangeLanguage("nl");
+            }
+            else if (sysLang.StartsWith("pt", StringComparison.OrdinalIgnoreCase))
+            {
+                PortugueseLanguage.Checked = true;
+                ChangeLanguage("pt");
+            }
+            else if (sysLang.StartsWith("sw", StringComparison.OrdinalIgnoreCase))
+            {
+                SwahiliLanguage.Checked = true;
+                ChangeLanguage("sw");
+            }
             else
             {
                 EnglishLanguage.Checked = true;
@@ -1365,7 +1457,7 @@ namespace Puzzle
         /// <summary>
         /// Main handler for language selection clicks.
         /// </summary>
-        private void LanguageSelection_Click(object sender, EventArgs e)
+        void LanguageSelection_Click(object sender, EventArgs e)
         {
             if (sender is ToolStripMenuItem clickedItem)
             {
@@ -1378,6 +1470,23 @@ namespace Puzzle
                 RussianLanguage.Checked = (clickedItem == RussianLanguage);
                 FrenchLanguage.Checked = (clickedItem == FrenchLanguage);
                 SpanishLanguage.Checked = (clickedItem == SpanishLanguage);
+                JapaneseLanguage.Checked = (clickedItem == JapaneseLanguage);
+                ChineseLanguage.Checked = (clickedItem == ChineseLanguage);
+                KoreanLanguage.Checked = (clickedItem == KoreanLanguage);
+                VietnameseLanguage.Checked = (clickedItem == VietnameseLanguage);
+                IndonesianLanguage.Checked = (clickedItem == IndonesianLanguage);
+                BengaliLanguage.Checked = (clickedItem == BengaliLanguage);
+                HindiLanguage.Checked = (clickedItem == HindiLanguage);
+                ArabicLanguage.Checked = (clickedItem == ArabicLanguage);
+                TurkishLanguage.Checked = (clickedItem == TurkishLanguage);
+                GreekLanguage.Checked = (clickedItem == GreekLanguage);
+                PolishLanguage.Checked = (clickedItem == PolishLanguage);
+                GermanLanguage.Checked = (clickedItem == GermanLanguage);
+                ItalianLanguage.Checked = (clickedItem == ItalianLanguage);
+                DutchLanguage.Checked = (clickedItem == DutchLanguage);
+                PortugueseLanguage.Checked = (clickedItem == PortugueseLanguage);
+                SwahiliLanguage.Checked = (clickedItem == SwahiliLanguage);
+
 
                 // Determine culture code based on the clicked item
                 string cultureCode = clickedItem.Tag?.ToString() ?? string.Empty;
@@ -1404,7 +1513,7 @@ namespace Puzzle
         /// <summary>
         /// Applies the selected culture resources to the UI components.
         /// </summary>
-        private void ChangeLanguage(string cultureCode)
+        void ChangeLanguage(string cultureCode)
         {
             var culture = new CultureInfo(cultureCode);
             Thread.CurrentThread.CurrentUICulture = culture;
@@ -1416,6 +1525,13 @@ namespace Puzzle
             // Update form-level properties ($this)
             Translations.ApplyResources(this, "$this");
 
+            UpdateTileIndexes();
+            if (Game_Is_Running)
+            {
+                Set_Tile_Index_To_Help_Fields();
+            }
+            Refresh();
+
             // Refresh dynamic UI elements
             Initialize_Menu(IsGameRunning: Game_Is_Running);
         }
@@ -1423,7 +1539,7 @@ namespace Puzzle
         /// <summary>
         /// Recursive helper to update ToolStrip items.
         /// </summary>
-        private void UpdateMenuItems(ToolStripItemCollection items, ComponentResourceManager res)
+        void UpdateMenuItems(ToolStripItemCollection items, ComponentResourceManager res)
         {
             foreach (ToolStripItem item in items)
             {
@@ -1433,6 +1549,19 @@ namespace Puzzle
                     UpdateMenuItems(menuItem.DropDownItems, res);
                 }
             }
+        }
+
+        void UpdateTileIndexes()
+        {
+            Index1.Text = Translations.GetString("Index1.Text");
+            Index2.Text = Translations.GetString("Index2.Text");
+            Index3.Text = Translations.GetString("Index3.Text");
+            Index4.Text = Translations.GetString("Index4.Text");
+            Index5.Text = Translations.GetString("Index5.Text");
+            Index6.Text = Translations.GetString("Index6.Text");
+            Index7.Text = Translations.GetString("Index7.Text");
+            Index8.Text = Translations.GetString("Index8.Text");
+            Index9.Text = Translations.GetString("Index9.Text");
         }
 
         #endregion

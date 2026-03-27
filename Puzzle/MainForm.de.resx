@@ -424,43 +424,43 @@
     <value>180, 22</value>
   </data>
   <data name="EnglishLanguage.Text" xml:space="preserve">
-    <value>   English</value>
+    <value>   Englisch</value>
   </data>
   <data name="SerbianLatinLanguage.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
   <data name="SerbianLatinLanguage.Text" xml:space="preserve">
-    <value>   Serbian Latin</value>
+    <value>   Serbisch (Lateinisch)</value>
   </data>
   <data name="SerbianCyrlLanguage.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
   <data name="SerbianCyrlLanguage.Text" xml:space="preserve">
-    <value>   Serbian Cyrl</value>
+    <value>   Serbisch (Kyrillisch)</value>
   </data>
   <data name="RussianLanguage.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
   <data name="RussianLanguage.Text" xml:space="preserve">
-    <value>   Russian</value>
+    <value>   Russisch</value>
   </data>
   <data name="FrenchLanguage.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
   <data name="FrenchLanguage.Text" xml:space="preserve">
-    <value>   French</value>
+    <value>   Französisch</value>
   </data>
   <data name="SpanishLanguage.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
   <data name="SpanishLanguage.Text" xml:space="preserve">
-    <value>   Spanish</value>
+    <value>   Spanisch</value>
   </data>
   <data name="MenuTitle.Size" type="System.Drawing.Size, System.Drawing">
     <value>251, 22</value>
   </data>
   <data name="MenuTitle.Text" xml:space="preserve">
-    <value>   Menu options - Languages</value>
+    <value>   Menüoptionen - Sprachen</value>
   </data>
   <data name="Separator1.Size" type="System.Drawing.Size, System.Drawing">
     <value>248, 6</value>
@@ -469,13 +469,13 @@
     <value>251, 22</value>
   </data>
   <data name="SliderPuzzle.Text" xml:space="preserve">
-    <value>   Slider puzzle</value>
+    <value>   Schiebepuzzle</value>
   </data>
   <data name="JigsawPuzzle.Size" type="System.Drawing.Size, System.Drawing">
     <value>251, 22</value>
   </data>
   <data name="JigsawPuzzle.Text" xml:space="preserve">
-    <value>   Jigsaw puzzle</value>
+    <value>   Jigsaw-Puzzle</value>
   </data>
   <data name="Separator2.Size" type="System.Drawing.Size, System.Drawing">
     <value>248, 6</value>
@@ -484,19 +484,19 @@
     <value>251, 22</value>
   </data>
   <data name="PreviousImage.Text" xml:space="preserve">
-    <value>   Previous image</value>
+    <value>   Vorheriges Bild</value>
   </data>
   <data name="NextImage.Size" type="System.Drawing.Size, System.Drawing">
     <value>251, 22</value>
   </data>
   <data name="NextImage.Text" xml:space="preserve">
-    <value>   Next image</value>
+    <value>   Nächstes Bild</value>
   </data>
   <data name="LoadImage.Size" type="System.Drawing.Size, System.Drawing">
     <value>251, 22</value>
   </data>
   <data name="LoadImage.Text" xml:space="preserve">
-    <value>   Load image from file</value>
+    <value>   Bild aus Datei laden</value>
   </data>
   <data name="Separator3.Size" type="System.Drawing.Size, System.Drawing">
     <value>248, 6</value>
@@ -505,7 +505,7 @@
     <value>251, 22</value>
   </data>
   <data name="NewPuzzle.Text" xml:space="preserve">
-    <value>   New puzzle</value>
+    <value>   Neues Puzzle</value>
   </data>
   <data name="Separator4.Size" type="System.Drawing.Size, System.Drawing">
     <value>248, 6</value>
@@ -514,7 +514,7 @@
     <value>251, 22</value>
   </data>
   <data name="PuzzleHelp.Text" xml:space="preserve">
-    <value>   Help</value>
+    <value>   Hilfe</value>
   </data>
   <data name="Separator5.Size" type="System.Drawing.Size, System.Drawing">
     <value>248, 6</value>
@@ -523,7 +523,7 @@
     <value>251, 22</value>
   </data>
   <data name="PuzzleSolution.Text" xml:space="preserve">
-    <value>   Show solution</value>
+    <value>   Lösung anzeigen</value>
   </data>
   <data name="Separator6.Size" type="System.Drawing.Size, System.Drawing">
     <value>248, 6</value>
@@ -532,7 +532,7 @@
     <value>251, 22</value>
   </data>
   <data name="RandomBlankTileIndex.Text" xml:space="preserve">
-    <value>   Random position of empty field</value>
+    <value>   Zufällige Position des leeren Feldes</value>
   </data>
   <data name="RandomBlankTileIndex.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
@@ -544,7 +544,7 @@
     <value>251, 22</value>
   </data>
   <data name="CloseMenu.Text" xml:space="preserve">
-    <value>   Close Menu</value>
+    <value>   Menü schließen</value>
   </data>
   <data name="Puzzle_Options.Size" type="System.Drawing.Size, System.Drawing">
     <value>252, 310</value>
@@ -559,10 +559,10 @@
     <value>17, 17</value>
   </data>
   <data name="Dialog_Load_Image.Filter" xml:space="preserve">
-    <value>Bitmap img|*.bmp|Gif img|*.gif|Png img|*.png|Jpeg img|*.jpg|Tiff img|*.tif|All documents|*.*</value>
+    <value>Bitmap-Bild|*.bmp|Gif-Bild|*.gif|Png-Bild|*.png|Jpeg-Bild|*.jpg|Tiff-Bild|*.tif|Alle Dokumente|*.*</value>
   </data>
   <data name="Dialog_Load_Image.Title" xml:space="preserve">
-    <value>   Choose image for puzzle</value>
+    <value>   Bild für Puzzle auswählen</value>
   </data>
   <data name="Index1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -3873,7 +3873,7 @@
     <value>CenterScreen</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>   Slider Puzzle</value>
+    <value>   Schiebepuzzle</value>
   </data>
   <data name="&gt;&gt;MenuTitle.Name" xml:space="preserve">
     <value>MenuTitle</value>
@@ -4032,24 +4032,72 @@
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="PuzzleIsSolved" xml:space="preserve">
-    <value>   Puzzle is solved.      </value>
+    <value>   Das Puzzle ist gelöst.      </value>
   </data>
   <data name="MainWindowTitleSlider" xml:space="preserve">
-    <value>   Slider Puzzle</value>
+    <value>   Schiebepuzzle</value>
   </data>
   <data name="Excellent" xml:space="preserve">
-    <value>   Excellent !!!</value>
+    <value>   Ausgezeichnet !!!</value>
   </data>
   <data name="MainWindowTitleJigsaw" xml:space="preserve">
-    <value>   Jigsaw Puzzle</value>
+    <value>   Jigsaw-Puzzle</value>
   </data>
   <data name="NewMixText" xml:space="preserve">
-    <value>   New mix</value>
+    <value>   Neue Mischung</value>
   </data>
   <data name="CantLoadImageMessage" xml:space="preserve">
-    <value>Oops! We couldn't load that image. Please make sure it's a valid photo file (JPG, PNG, BMP).</value>
+    <value>Hoppla! Wir konnten dieses Bild nicht laden. Bitte stellen Sie sicher, dass es eine gültige Bilddatei ist (JPG, PNG, BMP).</value>
   </data>
   <data name="CantLoadImageMessageTitle" xml:space="preserve">
-    <value>Error Loading Image</value>
+    <value>Fehler beim Laden des Bildes</value>
+  </data>
+  <data name="VietnameseLanguage.Text" xml:space="preserve">
+    <value>   Vietnamesisch</value>
+  </data>
+  <data name="TurkishLanguage.Text" xml:space="preserve">
+    <value>   Türkisch</value>
+  </data>
+  <data name="SwahiliLanguage.Text" xml:space="preserve">
+    <value>   Swahili</value>
+  </data>
+  <data name="PortugueseLanguage.Text" xml:space="preserve">
+    <value>   Portugiesisch</value>
+  </data>
+  <data name="PolishLanguage.Text" xml:space="preserve">
+    <value>   Polnisch</value>
+  </data>
+  <data name="KoreanLanguage.Text" xml:space="preserve">
+    <value>   Koreanisch</value>
+  </data>
+  <data name="JapaneseLanguage.Text" xml:space="preserve">
+    <value>   Japanisch</value>
+  </data>
+  <data name="ItalianLanguage.Text" xml:space="preserve">
+    <value>   Italienisch</value>
+  </data>
+  <data name="IndonesianLanguage.Text" xml:space="preserve">
+    <value>   Indonesisch</value>
+  </data>
+  <data name="HindiLanguage.Text" xml:space="preserve">
+    <value>   Hindi</value>
+  </data>
+  <data name="GreekLanguage.Text" xml:space="preserve">
+    <value>   Griechisch</value>
+  </data>
+  <data name="GermanLanguage.Text" xml:space="preserve">
+    <value>   Deutsch</value>
+  </data>
+  <data name="DutchLanguage.Text" xml:space="preserve">
+    <value>   Niederländisch</value>
+  </data>
+  <data name="ChineseLanguage.Text" xml:space="preserve">
+    <value>   Chinesisch (Vereinfacht)</value>
+  </data>
+  <data name="BengaliLanguage.Text" xml:space="preserve">
+    <value>   Bengalisch</value>
+  </data>
+  <data name="ArabicLanguage.Text" xml:space="preserve">
+    <value>   Arabisch</value>
   </data>
 </root>

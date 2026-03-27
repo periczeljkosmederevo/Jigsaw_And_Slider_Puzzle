@@ -79,6 +79,22 @@ namespace Puzzle
             this.RussianLanguage = new System.Windows.Forms.ToolStripMenuItem();
             this.FrenchLanguage = new System.Windows.Forms.ToolStripMenuItem();
             this.SpanishLanguage = new System.Windows.Forms.ToolStripMenuItem();
+            this.KoreanLanguage = new System.Windows.Forms.ToolStripMenuItem();
+            this.JapaneseLanguage = new System.Windows.Forms.ToolStripMenuItem();
+            this.ChineseLanguage = new System.Windows.Forms.ToolStripMenuItem();
+            this.VietnameseLanguage = new System.Windows.Forms.ToolStripMenuItem();
+            this.IndonesianLanguage = new System.Windows.Forms.ToolStripMenuItem();
+            this.BengaliLanguage = new System.Windows.Forms.ToolStripMenuItem();
+            this.HindiLanguage = new System.Windows.Forms.ToolStripMenuItem();
+            this.ArabicLanguage = new System.Windows.Forms.ToolStripMenuItem();
+            this.TurkishLanguage = new System.Windows.Forms.ToolStripMenuItem();
+            this.GreekLanguage = new System.Windows.Forms.ToolStripMenuItem();
+            this.PolishLanguage = new System.Windows.Forms.ToolStripMenuItem();
+            this.GermanLanguage = new System.Windows.Forms.ToolStripMenuItem();
+            this.ItalianLanguage = new System.Windows.Forms.ToolStripMenuItem();
+            this.DutchLanguage = new System.Windows.Forms.ToolStripMenuItem();
+            this.PortugueseLanguage = new System.Windows.Forms.ToolStripMenuItem();
+            this.SwahiliLanguage = new System.Windows.Forms.ToolStripMenuItem();
             this.Separator1 = new System.Windows.Forms.ToolStripSeparator();
             this.SliderPuzzle = new System.Windows.Forms.ToolStripMenuItem();
             this.JigsawPuzzle = new System.Windows.Forms.ToolStripMenuItem();
@@ -255,7 +271,23 @@ namespace Puzzle
             this.SerbianCyrlLanguage,
             this.RussianLanguage,
             this.FrenchLanguage,
-            this.SpanishLanguage});
+            this.SpanishLanguage,
+            this.KoreanLanguage,
+            this.JapaneseLanguage,
+            this.ChineseLanguage,
+            this.VietnameseLanguage,
+            this.IndonesianLanguage,
+            this.BengaliLanguage,
+            this.HindiLanguage,
+            this.ArabicLanguage,
+            this.TurkishLanguage,
+            this.GreekLanguage,
+            this.PolishLanguage,
+            this.GermanLanguage,
+            this.ItalianLanguage,
+            this.DutchLanguage,
+            this.PortugueseLanguage,
+            this.SwahiliLanguage});
             this.MenuTitle.Name = "MenuTitle";
             resources.ApplyResources(this.MenuTitle, "MenuTitle");
             // 
@@ -300,6 +332,118 @@ namespace Puzzle
             resources.ApplyResources(this.SpanishLanguage, "SpanishLanguage");
             this.SpanishLanguage.Tag = "es";
             this.SpanishLanguage.Click += new System.EventHandler(this.LanguageSelection_Click);
+            // 
+            // KoreanLanguage
+            // 
+            this.KoreanLanguage.Name = "KoreanLanguage";
+            resources.ApplyResources(this.KoreanLanguage, "KoreanLanguage");
+            this.KoreanLanguage.Tag = "ko";
+            this.KoreanLanguage.Click += new System.EventHandler(this.LanguageSelection_Click);
+            // 
+            // JapaneseLanguage
+            // 
+            this.JapaneseLanguage.Name = "JapaneseLanguage";
+            resources.ApplyResources(this.JapaneseLanguage, "JapaneseLanguage");
+            this.JapaneseLanguage.Tag = "ja";
+            this.JapaneseLanguage.Click += new System.EventHandler(this.LanguageSelection_Click);
+            // 
+            // ChineseLanguage
+            // 
+            this.ChineseLanguage.Name = "ChineseLanguage";
+            resources.ApplyResources(this.ChineseLanguage, "ChineseLanguage");
+            this.ChineseLanguage.Tag = "zh-Hans";
+            this.ChineseLanguage.Click += new System.EventHandler(this.LanguageSelection_Click);
+            // 
+            // VietnameseLanguage
+            // 
+            this.VietnameseLanguage.Name = "VietnameseLanguage";
+            resources.ApplyResources(this.VietnameseLanguage, "VietnameseLanguage");
+            this.VietnameseLanguage.Tag = "vi";
+            this.VietnameseLanguage.Click += new System.EventHandler(this.LanguageSelection_Click);
+            // 
+            // IndonesianLanguage
+            // 
+            this.IndonesianLanguage.Name = "IndonesianLanguage";
+            resources.ApplyResources(this.IndonesianLanguage, "IndonesianLanguage");
+            this.IndonesianLanguage.Tag = "id";
+            this.IndonesianLanguage.Click += new System.EventHandler(this.LanguageSelection_Click);
+            // 
+            // BengaliLanguage
+            // 
+            this.BengaliLanguage.Name = "BengaliLanguage";
+            resources.ApplyResources(this.BengaliLanguage, "BengaliLanguage");
+            this.BengaliLanguage.Tag = "bn";
+            this.BengaliLanguage.Click += new System.EventHandler(this.LanguageSelection_Click);
+            // 
+            // HindiLanguage
+            // 
+            this.HindiLanguage.Name = "HindiLanguage";
+            resources.ApplyResources(this.HindiLanguage, "HindiLanguage");
+            this.HindiLanguage.Tag = "hi";
+            this.HindiLanguage.Click += new System.EventHandler(this.LanguageSelection_Click);
+            // 
+            // ArabicLanguage
+            // 
+            this.ArabicLanguage.Name = "ArabicLanguage";
+            resources.ApplyResources(this.ArabicLanguage, "ArabicLanguage");
+            this.ArabicLanguage.Tag = "ar";
+            this.ArabicLanguage.Click += new System.EventHandler(this.LanguageSelection_Click);
+            // 
+            // TurkishLanguage
+            // 
+            this.TurkishLanguage.Name = "TurkishLanguage";
+            resources.ApplyResources(this.TurkishLanguage, "TurkishLanguage");
+            this.TurkishLanguage.Tag = "tr";
+            this.TurkishLanguage.Click += new System.EventHandler(this.LanguageSelection_Click);
+            // 
+            // GreekLanguage
+            // 
+            this.GreekLanguage.Name = "GreekLanguage";
+            resources.ApplyResources(this.GreekLanguage, "GreekLanguage");
+            this.GreekLanguage.Tag = "el";
+            this.GreekLanguage.Click += new System.EventHandler(this.LanguageSelection_Click);
+            // 
+            // PolishLanguage
+            // 
+            this.PolishLanguage.Name = "PolishLanguage";
+            resources.ApplyResources(this.PolishLanguage, "PolishLanguage");
+            this.PolishLanguage.Tag = "pl";
+            this.PolishLanguage.Click += new System.EventHandler(this.LanguageSelection_Click);
+            // 
+            // GermanLanguage
+            // 
+            this.GermanLanguage.Name = "GermanLanguage";
+            resources.ApplyResources(this.GermanLanguage, "GermanLanguage");
+            this.GermanLanguage.Tag = "de";
+            this.GermanLanguage.Click += new System.EventHandler(this.LanguageSelection_Click);
+            // 
+            // ItalianLanguage
+            // 
+            this.ItalianLanguage.Name = "ItalianLanguage";
+            resources.ApplyResources(this.ItalianLanguage, "ItalianLanguage");
+            this.ItalianLanguage.Tag = "it";
+            this.ItalianLanguage.Click += new System.EventHandler(this.LanguageSelection_Click);
+            // 
+            // DutchLanguage
+            // 
+            this.DutchLanguage.Name = "DutchLanguage";
+            resources.ApplyResources(this.DutchLanguage, "DutchLanguage");
+            this.DutchLanguage.Tag = "nl";
+            this.DutchLanguage.Click += new System.EventHandler(this.LanguageSelection_Click);
+            // 
+            // PortugueseLanguage
+            // 
+            this.PortugueseLanguage.Name = "PortugueseLanguage";
+            resources.ApplyResources(this.PortugueseLanguage, "PortugueseLanguage");
+            this.PortugueseLanguage.Tag = "pt";
+            this.PortugueseLanguage.Click += new System.EventHandler(this.LanguageSelection_Click);
+            // 
+            // SwahiliLanguage
+            // 
+            this.SwahiliLanguage.Name = "SwahiliLanguage";
+            resources.ApplyResources(this.SwahiliLanguage, "SwahiliLanguage");
+            this.SwahiliLanguage.Tag = "sw";
+            this.SwahiliLanguage.Click += new System.EventHandler(this.LanguageSelection_Click);
             // 
             // Separator1
             // 
@@ -583,14 +727,30 @@ namespace Puzzle
 		private System.Windows.Forms.PictureBox Square3;
 		private System.Windows.Forms.PictureBox Square2;
 		private System.Windows.Forms.PictureBox Square1;
-        private System.Windows.Forms.ToolStripMenuItem EnglishLanguage;
-        private System.Windows.Forms.ToolStripMenuItem SerbianLatinLanguage;
         private System.Windows.Forms.ToolStripSeparator Separator7;
         private System.Windows.Forms.ToolStripMenuItem CloseMenu;
+        private System.Windows.Forms.ToolStripMenuItem EnglishLanguage;
+        private System.Windows.Forms.ToolStripMenuItem SerbianLatinLanguage;
         private System.Windows.Forms.ToolStripMenuItem SerbianCyrlLanguage;
         private System.Windows.Forms.ToolStripMenuItem RussianLanguage;
         private System.Windows.Forms.ToolStripMenuItem FrenchLanguage;
         private System.Windows.Forms.ToolStripMenuItem SpanishLanguage;
+        private System.Windows.Forms.ToolStripMenuItem KoreanLanguage;
+        private System.Windows.Forms.ToolStripMenuItem JapaneseLanguage;
+        private System.Windows.Forms.ToolStripMenuItem ChineseLanguage;
+        private System.Windows.Forms.ToolStripMenuItem VietnameseLanguage;
+        private System.Windows.Forms.ToolStripMenuItem IndonesianLanguage;
+        private System.Windows.Forms.ToolStripMenuItem BengaliLanguage;
+        private System.Windows.Forms.ToolStripMenuItem HindiLanguage;
+        private System.Windows.Forms.ToolStripMenuItem ArabicLanguage;
+        private System.Windows.Forms.ToolStripMenuItem TurkishLanguage;
+        private System.Windows.Forms.ToolStripMenuItem GreekLanguage;
+        private System.Windows.Forms.ToolStripMenuItem PolishLanguage;
+        private System.Windows.Forms.ToolStripMenuItem GermanLanguage;
+        private System.Windows.Forms.ToolStripMenuItem ItalianLanguage;
+        private System.Windows.Forms.ToolStripMenuItem DutchLanguage;
+        private System.Windows.Forms.ToolStripMenuItem PortugueseLanguage;
+        private System.Windows.Forms.ToolStripMenuItem SwahiliLanguage;
     }
 }
 /************************************************************************

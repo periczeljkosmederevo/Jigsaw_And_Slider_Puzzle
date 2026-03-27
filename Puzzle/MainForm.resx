@@ -417,9 +417,9 @@
   <data name="&gt;&gt;Square9.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="Puzzle_Options.TrayLocation" type="System.Drawing.Point, System.Drawing">
+  <metadata name="Puzzle_Options.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>335, 20</value>
-  </data>
+  </metadata>
   <data name="EnglishLanguage.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
@@ -455,6 +455,102 @@
   </data>
   <data name="SpanishLanguage.Text" xml:space="preserve">
     <value>   Spanish</value>
+  </data>
+  <data name="KoreanLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="KoreanLanguage.Text" xml:space="preserve">
+    <value>   Korean</value>
+  </data>
+  <data name="JapaneseLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="JapaneseLanguage.Text" xml:space="preserve">
+    <value>   Japanese</value>
+  </data>
+  <data name="ChineseLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="ChineseLanguage.Text" xml:space="preserve">
+    <value>   Chinese</value>
+  </data>
+  <data name="VietnameseLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="VietnameseLanguage.Text" xml:space="preserve">
+    <value>   Vietnamese</value>
+  </data>
+  <data name="IndonesianLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="IndonesianLanguage.Text" xml:space="preserve">
+    <value>   Indonesian</value>
+  </data>
+  <data name="BengaliLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="BengaliLanguage.Text" xml:space="preserve">
+    <value>   Bengali</value>
+  </data>
+  <data name="HindiLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="HindiLanguage.Text" xml:space="preserve">
+    <value>   Hindi</value>
+  </data>
+  <data name="ArabicLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="ArabicLanguage.Text" xml:space="preserve">
+    <value>   Arabic</value>
+  </data>
+  <data name="TurkishLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="TurkishLanguage.Text" xml:space="preserve">
+    <value>   Turkish</value>
+  </data>
+  <data name="GreekLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="GreekLanguage.Text" xml:space="preserve">
+    <value>   Greek</value>
+  </data>
+  <data name="PolishLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="PolishLanguage.Text" xml:space="preserve">
+    <value>   Polish</value>
+  </data>
+  <data name="GermanLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="GermanLanguage.Text" xml:space="preserve">
+    <value>   German</value>
+  </data>
+  <data name="ItalianLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="ItalianLanguage.Text" xml:space="preserve">
+    <value>   Italian</value>
+  </data>
+  <data name="DutchLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="DutchLanguage.Text" xml:space="preserve">
+    <value>   Dutch</value>
+  </data>
+  <data name="PortugueseLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="PortugueseLanguage.Text" xml:space="preserve">
+    <value>   Portuguese</value>
+  </data>
+  <data name="SwahiliLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="SwahiliLanguage.Text" xml:space="preserve">
+    <value>   Swahili</value>
   </data>
   <data name="MenuTitle.Size" type="System.Drawing.Size, System.Drawing">
     <value>251, 22</value>
@@ -555,9 +651,9 @@
   <data name="&gt;&gt;Puzzle_Options.Type" xml:space="preserve">
     <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="Dialog_Load_Image.TrayLocation" type="System.Drawing.Point, System.Drawing">
+  <metadata name="Dialog_Load_Image.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
-  </data>
+  </metadata>
   <data name="Dialog_Load_Image.Filter" xml:space="preserve">
     <value>Bitmap img|*.bmp|Gif img|*.gif|Png img|*.png|Jpeg img|*.jpg|Tiff img|*.tif|All documents|*.*</value>
   </data>
@@ -915,12 +1011,12 @@
   <data name="&gt;&gt;Index9.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
-  </data>
-  <data name="$this.Locked" type="System.Boolean, mscorlib">
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
-  </data>
+  </metadata>
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAYABgAAD/4QN4RXhpZgAATU0AKgAAAAgACwESAAMAAAABAAEAAAEaAAUAAAAB
@@ -4025,26 +4121,122 @@
   <data name="&gt;&gt;Dialog_Load_Image.Type" xml:space="preserve">
     <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;KoreanLanguage.Name" xml:space="preserve">
+    <value>KoreanLanguage</value>
+  </data>
+  <data name="&gt;&gt;KoreanLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JapaneseLanguage.Name" xml:space="preserve">
+    <value>JapaneseLanguage</value>
+  </data>
+  <data name="&gt;&gt;JapaneseLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChineseLanguage.Name" xml:space="preserve">
+    <value>ChineseLanguage</value>
+  </data>
+  <data name="&gt;&gt;ChineseLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VietnameseLanguage.Name" xml:space="preserve">
+    <value>VietnameseLanguage</value>
+  </data>
+  <data name="&gt;&gt;VietnameseLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;IndonesianLanguage.Name" xml:space="preserve">
+    <value>IndonesianLanguage</value>
+  </data>
+  <data name="&gt;&gt;IndonesianLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BengaliLanguage.Name" xml:space="preserve">
+    <value>BengaliLanguage</value>
+  </data>
+  <data name="&gt;&gt;BengaliLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HindiLanguage.Name" xml:space="preserve">
+    <value>HindiLanguage</value>
+  </data>
+  <data name="&gt;&gt;HindiLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ArabicLanguage.Name" xml:space="preserve">
+    <value>ArabicLanguage</value>
+  </data>
+  <data name="&gt;&gt;ArabicLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TurkishLanguage.Name" xml:space="preserve">
+    <value>TurkishLanguage</value>
+  </data>
+  <data name="&gt;&gt;TurkishLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GreekLanguage.Name" xml:space="preserve">
+    <value>GreekLanguage</value>
+  </data>
+  <data name="&gt;&gt;GreekLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PolishLanguage.Name" xml:space="preserve">
+    <value>PolishLanguage</value>
+  </data>
+  <data name="&gt;&gt;PolishLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GermanLanguage.Name" xml:space="preserve">
+    <value>GermanLanguage</value>
+  </data>
+  <data name="&gt;&gt;GermanLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ItalianLanguage.Name" xml:space="preserve">
+    <value>ItalianLanguage</value>
+  </data>
+  <data name="&gt;&gt;ItalianLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DutchLanguage.Name" xml:space="preserve">
+    <value>DutchLanguage</value>
+  </data>
+  <data name="&gt;&gt;DutchLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PortugueseLanguage.Name" xml:space="preserve">
+    <value>PortugueseLanguage</value>
+  </data>
+  <data name="&gt;&gt;PortugueseLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SwahiliLanguage.Name" xml:space="preserve">
+    <value>SwahiliLanguage</value>
+  </data>
+  <data name="&gt;&gt;SwahiliLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>MainForm</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="PuzzleIsSolved" xml:space="preserve">
-    <value>   Puzzle is solved.      </value>
-  </data>
   <data name="MainWindowTitleSlider" xml:space="preserve">
     <value>   Slider Puzzle</value>
   </data>
-  <data name="Excellent" xml:space="preserve">
-    <value>   Excellent !!!</value>
+  <data name="PuzzleIsSolved" xml:space="preserve">
+    <value>   Puzzle is solved.      </value>
+  </data>
+  <data name="NewMixText" xml:space="preserve">
+    <value>   New mix</value>
   </data>
   <data name="MainWindowTitleJigsaw" xml:space="preserve">
     <value>   Jigsaw Puzzle</value>
   </data>
-  <data name="NewMixText" xml:space="preserve">
-    <value>   New mix</value>
+  <data name="Excellent" xml:space="preserve">
+    <value>   Excellent !!!</value>
   </data>
   <data name="CantLoadImageMessage" xml:space="preserve">
     <value>Oops! We couldn't load that image. Please make sure it's a valid photo file (JPG, PNG, BMP).</value>

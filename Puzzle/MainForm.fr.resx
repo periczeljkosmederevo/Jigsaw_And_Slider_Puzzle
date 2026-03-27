@@ -121,10 +121,10 @@
     <value>   Anglais</value>
   </data>
   <data name="SerbianLatinLanguage.Text" xml:space="preserve">
-    <value>   Serbe Latin</value>
+    <value>   Serbe (Latin)</value>
   </data>
   <data name="SerbianCyrlLanguage.Text" xml:space="preserve">
-    <value>   Serbe Cyrillique</value>
+    <value>   Serbe (Cyrillique)</value>
   </data>
   <data name="RussianLanguage.Text" xml:space="preserve">
     <value>   Russe</value>
@@ -3137,5 +3137,83 @@
   </data>
   <data name="CantLoadImageMessageTitle" xml:space="preserve">
     <value>Erreur lors du chargement de l'image</value>
+  </data>
+  <data name="VietnameseLanguage.Text" xml:space="preserve">
+    <value>   Vietnamien</value>
+  </data>
+  <data name="TurkishLanguage.Text" xml:space="preserve">
+    <value>   Turc</value>
+  </data>
+  <data name="SwahiliLanguage.Text" xml:space="preserve">
+    <value>   Swahili</value>
+  </data>
+  <data name="PortugueseLanguage.Text" xml:space="preserve">
+    <value>   Portugais</value>
+  </data>
+  <data name="PolishLanguage.Text" xml:space="preserve">
+    <value>   Polonais</value>
+  </data>
+  <data name="KoreanLanguage.Text" xml:space="preserve">
+    <value>   Coréen</value>
+  </data>
+  <data name="JapaneseLanguage.Text" xml:space="preserve">
+    <value>   Japonais</value>
+  </data>
+  <data name="ItalianLanguage.Text" xml:space="preserve">
+    <value>   Italien</value>
+  </data>
+  <data name="IndonesianLanguage.Text" xml:space="preserve">
+    <value>   Indonésien</value>
+  </data>
+  <data name="HindiLanguage.Text" xml:space="preserve">
+    <value>   Hindi</value>
+  </data>
+  <data name="GreekLanguage.Text" xml:space="preserve">
+    <value>   Grec</value>
+  </data>
+  <data name="GermanLanguage.Text" xml:space="preserve">
+    <value>   Allemand</value>
+  </data>
+  <data name="DutchLanguage.Text" xml:space="preserve">
+    <value>   Néerlandais</value>
+  </data>
+  <data name="ChineseLanguage.Text" xml:space="preserve">
+    <value>   Chinois (Simplifié)</value>
+  </data>
+  <data name="BengaliLanguage.Text" xml:space="preserve">
+    <value>   Bengali</value>
+  </data>
+  <data name="ArabicLanguage.Text" xml:space="preserve">
+    <value>   Arabe</value>
+  </data>
+  <data name="Dialog_Load_Image.Filter" xml:space="preserve">
+    <value>Image Bitmap|*.bmp|Image Gif|*.gif|Image Png|*.png|Image Jpeg|*.jpg|Image Tiff|*.tif|Tous les documents|*.*</value>
+  </data>
+  <data name="Index9.Text" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Index8.Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Index7.Text" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Index6.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Index5.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Index4.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Index3.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Index2.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Index1.Text" xml:space="preserve">
+    <value>1</value>
   </data>
 </root>

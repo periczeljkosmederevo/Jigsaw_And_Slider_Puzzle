@@ -121,7 +121,7 @@
     <value>   Inglés</value>
   </data>
   <data name="SerbianLatinLanguage.Text" xml:space="preserve">
-    <value>   Serbio Latín</value>
+    <value>   Serbio Latíno</value>
   </data>
   <data name="SerbianCyrlLanguage.Text" xml:space="preserve">
     <value>   Serbio Cirílico</value>
@@ -3137,5 +3137,83 @@
   </data>
   <data name="CantLoadImageMessageTitle" xml:space="preserve">
     <value>Error al cargar la imagen</value>
+  </data>
+  <data name="Dialog_Load_Image.Filter" xml:space="preserve">
+    <value>Bitmap img|*.bmp|Gif img|*.gif|Png img|*.png|Jpeg img|*.jpg|Tiff img|*.tif|All documents|*.*</value>
+  </data>
+  <data name="VietnameseLanguage.Text" xml:space="preserve">
+    <value>   Vietnamita</value>
+  </data>
+  <data name="TurkishLanguage.Text" xml:space="preserve">
+    <value>   Turco</value>
+  </data>
+  <data name="SwahiliLanguage.Text" xml:space="preserve">
+    <value>   Suajili</value>
+  </data>
+  <data name="PortugueseLanguage.Text" xml:space="preserve">
+    <value>   Portugués</value>
+  </data>
+  <data name="PolishLanguage.Text" xml:space="preserve">
+    <value>   Polaco</value>
+  </data>
+  <data name="KoreanLanguage.Text" xml:space="preserve">
+    <value>   Coreano</value>
+  </data>
+  <data name="JapaneseLanguage.Text" xml:space="preserve">
+    <value>   Japonés</value>
+  </data>
+  <data name="ItalianLanguage.Text" xml:space="preserve">
+    <value>   Italiano</value>
+  </data>
+  <data name="IndonesianLanguage.Text" xml:space="preserve">
+    <value>   Indonesio</value>
+  </data>
+  <data name="HindiLanguage.Text" xml:space="preserve">
+    <value>   Hindi</value>
+  </data>
+  <data name="GreekLanguage.Text" xml:space="preserve">
+    <value>   Griego</value>
+  </data>
+  <data name="GermanLanguage.Text" xml:space="preserve">
+    <value>   Alemán</value>
+  </data>
+  <data name="DutchLanguage.Text" xml:space="preserve">
+    <value>   Holandés</value>
+  </data>
+  <data name="ChineseLanguage.Text" xml:space="preserve">
+    <value>   Chino (Simplificado)</value>
+  </data>
+  <data name="BengaliLanguage.Text" xml:space="preserve">
+    <value>   Bengalí</value>
+  </data>
+  <data name="ArabicLanguage.Text" xml:space="preserve">
+    <value>   Árabe</value>
+  </data>
+  <data name="Index9.Text" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Index8.Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Index7.Text" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Index6.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Index5.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Index4.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Index3.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Index2.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Index1.Text" xml:space="preserve">
+    <value>1</value>
   </data>
 </root>
