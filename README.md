@@ -1,3 +1,6 @@
+<img width="367" height="394" alt="image" src="https://github.com/user-attachments/assets/69744f18-ce54-453a-abc0-c7e04bf7fcc8" />
+
+
 # Jigsaw_And_Slider_Puzzle
 
 **Jigsaw_And_Slider_Puzzle** is a Windows Forms implementation of traditional logic puzzle games that allows users to play both **Jigsaw** and **Slider** puzzle modes using custom images divided into rectangular tiles.
