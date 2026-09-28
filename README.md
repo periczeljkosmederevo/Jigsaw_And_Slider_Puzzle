@@ -1,4 +1,6 @@
-<img width="367" height="394" alt="image" src="https://github.com/user-attachments/assets/69744f18-ce54-453a-abc0-c7e04bf7fcc8" />
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/69744f18-ce54-453a-abc0-c7e04bf7fcc8" />
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/c68d008e-af38-4121-b4b2-19b69d88db04" />
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/079ff792-f029-4026-97f9-6d4b36ae6d57" />
 
 
 # Jigsaw_And_Slider_Puzzle
